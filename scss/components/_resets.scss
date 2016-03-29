@@ -1,0 +1,24 @@
+@import "../_settings.scss";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+video {
+    vertical-align: middle;
+}
+
+address {
+    font-style: normal;
+}
+
+figure {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+

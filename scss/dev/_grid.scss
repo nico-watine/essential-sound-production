@@ -1,0 +1,33 @@
+@import "../_settings.scss";
+
+body.dev-page {
+	.border {
+		border: 1px solid red;
+	}
+
+	.red {
+		background: red;
+		color: #fff;
+	}
+
+	.blue {
+		background: blue;
+		color: #fff;
+	}	
+}
+
+
+body.dev-page#grid {
+	.row {
+		border: 1px solid white;
+	}
+	@media #{$large-up} {
+		background: green;
+	}
+	@media #{$medium-only} {
+		background: blue;
+	}
+	@media #{$small-only} {
+		background: yellow;
+	}
+}
