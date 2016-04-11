@@ -1,1 +1,15 @@
 @import "../../_settings.scss";
+
+@font-face {
+  font-family: 'AvenirNext Bold';
+  src: url('/fonts/avenir-next/bold/AvenirNext-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/avenir-next/bold/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/avenir-next/bold/AvenirNext-Bold.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/avenir-next/bold/AvenirNext-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/avenir-next/bold/AvenirNext-Bold.svg#add6a56a5a62396eaea1929a4942a5a6') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+

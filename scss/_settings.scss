@@ -108,8 +108,10 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+// $header-font-family: $body-font-family;
+$header-font-family: $heavy-title;
+// $header-font-weight: $global-weight-normal;
+$header-font-weight: $heavy-title-font-weight;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
