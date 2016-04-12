@@ -1,6 +1,21 @@
 @import "../_settings.scss";
 @import "typography/_fonts.scss";
 
+.title {
+	font-family: $heavy-title;
+	font-weight: $heavy-title-font-weight;
+	letter-spacing: rem(3);
+}
+
+.body-font {
+	font-family: $body-font-family;
+	font-weight: normal;
+}
+
+.body-font.expanded {
+	letter-spacing: rem(1.5);
+}
+
 
 // OPTIONAL CUSTOM STYLING OF H5 & H6 FOR UPPERCASE W/ LETTER SPACING
 // USES SETTINGS FROM _custom-settings.scss

@@ -2,7 +2,6 @@
 
 body#index {
 	section.landing {
-		position: relative;
 		height: 100%;
 		width: 100%;
 		background: #000 url('/img/index/landing/hero.jpg') no-repeat center center;
@@ -10,20 +9,19 @@ body#index {
 
 		.prose-wrapper {
 			position: absolute;
-			top: 40%;
+			top: 45%;
 			width: 100%;
 
 			h1 {
-				font-size: rem(34);
 				color: #fff;
-				letter-spacing: rem(2);
-				text-shadow: 0 rem(3) rem(6) #000;
+				// letter-spacing: rem(3);
+				text-shadow: 0 rem(4) rem(5) #000;
 			}
 			
 			h2 {
 				color: #fff;
-				letter-spacing: rem(3);
-				text-shadow: 0 rem(3) rem(8) #000;
+				// letter-spacing: rem(3);
+				text-shadow: 0 rem(4) rem(5) #000;
 			}
 		}
 

@@ -1,0 +1,15 @@
+@import "../../_settings.scss";
+
+body#index {
+	section.services {
+		padding: em(40) 0 0;
+		height: em(840);
+		width: 100%;
+		background: #fff url('/img/index/services/services-bg-detail.jpg') no-repeat left bottom;
+		background-size: contain;
+	}
+}
+
+
+
+
