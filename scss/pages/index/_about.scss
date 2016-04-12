@@ -2,14 +2,46 @@
 
 body#index {
 	section.about {
-		padding: em(40) 0 0;
+		padding: em(100) 0 em(40);
 		height: em(840);
 		width: 100%;
-		background: #fff url('/img/index/about/about-bg.jpg') no-repeat left bottom;
-		background-size: contain;
+		background: #000 url('/img/index/about/about-bg.jpg') no-repeat center center;
+		background-size: cover;
+
+
+		@include breakpoint(small only) {
+			height: em(500);
+			padding: em(40) 0;
+			background: #000 url('/img/index/about/about-bg@small.jpg') no-repeat center center;
+			background-size: cover;
+		}
+
+		h2 {
+			color: #fff;
+			text-shadow: 0 rem(4) rem(5) #000;
+
+			span {
+				background: rgba(0,0,0,0.30);
+				padding: rem(16) rem(20) rem(12);
+			}
+		}
+
+		.prose-wrapper {
+			background: rgba(0,0,0,0.30);
+			max-width: em(800);
+			width: 100%;
+			padding: rem(18);
+
+			p {
+				color: #fff;
+				text-shadow: 0 rem(2) rem(6) #000;
+				line-height: 1.3;
+
+				@include breakpoint(medium) {
+					font-size: rem(24);
+				}
+			}
+		}
 	}
 }
-
-
-
 
