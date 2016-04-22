@@ -5,16 +5,18 @@ body-id: index
 <section class="landing text-center">
 	<div class="prose-wrapper">
 		<h1 class="title">ESSENTIAL SOUND PRODUCTION</h1>
-		<h2 class="title">SOUND | LIGHTING | DJ ENTERTAINMENT</h2>
+		<h2 class="title">DJ ENTERTAINMENT | SOUND | LIGHTING</h2>
 	</div>
 </section>
-<section class="services">
+<!-- COMING SOON -->
+<!-- <section class="services">
 	<div class="row text-center">
 		<h2 class="title">OUR SERVICES</h2>
 		<h3 class="body-font expanded">We offer a variety of event service packages to best fit your needs.</h3>
 	</div>
-</section>
-<section class="about">
+</section> -->
+<!-- COMING SOON -->
+<!-- <section class="about">
 	<div class="row header">
 		<div class="small-12 columns">
 			<h2 class="title"><span>ABOUT ESP</span></h2>
@@ -31,4 +33,4 @@ body-id: index
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
