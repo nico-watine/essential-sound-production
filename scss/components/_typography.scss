@@ -12,10 +12,18 @@
 	font-weight: normal;
 }
 
-.body-font.expanded {
+.body-font.spaced-out {
 	letter-spacing: rem(1.5);
 }
 
+p.large {
+	letter-spacing: rem(1.5);
+	font-size: rem(22);
+}
+
+p {
+	letter-spacing: rem(1.5);
+}
 
 // OPTIONAL CUSTOM STYLING OF H5 & H6 FOR UPPERCASE W/ LETTER SPACING
 // USES SETTINGS FROM _custom-settings.scss

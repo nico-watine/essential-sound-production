@@ -1,0 +1,30 @@
+@import "../../_settings.scss";
+
+body#index {
+	.contact {
+		border-top: em(30) solid #000;
+		padding: em(36) 0;
+		background: #fff url('/img/index/contact/phone-bg.png') no-repeat left top;
+		background-size: auto 100%;
+
+		p#inform-about-website {
+			font-size: rem(25);
+			margin-bottom: rem(55);
+		}
+
+		.profile {
+			h4 {
+				span {
+					display: block;
+					font-size: rem(18);
+					letter-spacing: rem(1.5);
+					color: #343434;
+				}
+			}
+
+			p {
+				font-size: rem(18);
+			}
+		}
+	}
+}
