@@ -1,28 +1,68 @@
 @import "../../_settings.scss";
 
+$max-900: "only screen and (max-width : 900px)";
+$max-700: "only screen and (max-width : 700px)";
+
 body#index {
 	section.landing {
-		height: 100%;
 		width: 100%;
 		background: #000 url('/img/index/landing/hero.jpg') no-repeat center center;
 		background-size: cover;
+		min-height: 100%;
 
-		.prose-wrapper {
+		.absolute-wrapper {
 			position: absolute;
-			top: 45%;
+			top: 30%;
 			width: 100%;
+			z-index: 200;
+			padding: em(80) 0 0;
 
-			h1 {
-				color: #fff;
-				text-shadow: 0 rem(4) rem(5) #000;
+			.prose {
+				position: absolute;
+				width: 100%;
+				z-index: 55;
+
+				h1 {
+					color: #fff;
+					text-shadow: 0 rem(4) rem(5) #000;
+				}
+				
+				h2 {
+					color: #fff;
+					text-shadow: 0 rem(4) rem(5) #000;
+				}
+
+				@media #{$max-900} {
+					h1 {
+						font-size: 34px;
+					}
+					h2 {
+						font-size: 26px;
+					}
+				}
+
+				@media #{$max-700} {
+					h1 {
+						font-size: 28px;
+					}
+					h2 {
+						font-size: 22px;
+					}
+				}
 			}
-			
-			h2 {
-				color: #fff;
-				text-shadow: 0 rem(4) rem(5) #000;
+
+			.logo {
+				position: absolute;
+				// top: 45%;
+				z-index: 10;
+				width: 100%;
+				text-align: center;
+
+				img {
+
+				}
 			}
 		}
-
 	}
 }
 

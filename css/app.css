@@ -2043,9 +2043,11 @@ header { position: absolute; top: 0; z-index: 55; width: 100%; height: 5em; back
 
 header nav ul.menu li { vertical-align: top; padding-top: 1.75rem; }
 
-header nav ul.menu li a { padding: 0; font-size: 1.5625rem; color: #fff; letter-spacing: 0.09375rem; }
+header nav ul.menu li a { padding: 0; font-size: 1.375rem; color: #fff; letter-spacing: 0.09375rem; }
 
 header nav ul.menu li.logo { padding-top: 1rem; }
+
+html, body { height: 100%; }
 
 @font-face { font-family: 'AvenirNext Bold'; src: url("/fonts/avenir-next/bold/AvenirNext-Bold.eot"); /* IE9 Compat Modes */ src: url("/fonts/avenir-next/bold/AvenirNext-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/avenir-next/bold/AvenirNext-Bold.woff") format("woff"), url("/fonts/avenir-next/bold/AvenirNext-Bold.ttf") format("truetype"), url("/fonts/avenir-next/bold/AvenirNext-Bold.svg#add6a56a5a62396eaea1929a4942a5a6") format("svg"); /* Legacy iOS */ font-style: normal; font-weight: 700; }
 
@@ -2063,7 +2065,7 @@ p { letter-spacing: 0.09375rem; }
 
 .m-0 { margin: 0; }
 
-body#index .contact { border-top: 1.875em solid #000; padding: 2.25em 0; background: #fff url("/img/index/contact/phone-bg.png") no-repeat left top; background-size: auto 100%; }
+body#index .contact { border-top: 1.875em solid #000; padding: 2.25em 0; background: #fff url("/img/index/contact/phone-bg.png") no-repeat left bottom; background-size: contain; }
 
 body#index .contact p#inform-about-website { font-size: 1.5625rem; margin-bottom: 3.4375rem; }
 
@@ -2071,13 +2073,23 @@ body#index .contact .profile h4 span { display: block; font-size: 1.125rem; lett
 
 body#index .contact .profile p { font-size: 1.125rem; }
 
-body#index section.landing { height: 100%; width: 100%; background: #000 url("/img/index/landing/hero.jpg") no-repeat center center; background-size: cover; }
+body#index section.landing { width: 100%; background: #000 url("/img/index/landing/hero.jpg") no-repeat center center; background-size: cover; min-height: 100%; }
 
-body#index section.landing .prose-wrapper { position: absolute; top: 45%; width: 100%; }
+body#index section.landing .absolute-wrapper { position: absolute; top: 30%; width: 100%; z-index: 200; padding: 5em 0 0; }
 
-body#index section.landing .prose-wrapper h1 { color: #fff; text-shadow: 0 0.25rem 0.3125rem #000; }
+body#index section.landing .absolute-wrapper .prose { position: absolute; width: 100%; z-index: 55; }
 
-body#index section.landing .prose-wrapper h2 { color: #fff; text-shadow: 0 0.25rem 0.3125rem #000; }
+body#index section.landing .absolute-wrapper .prose h1 { color: #fff; text-shadow: 0 0.25rem 0.3125rem #000; }
+
+body#index section.landing .absolute-wrapper .prose h2 { color: #fff; text-shadow: 0 0.25rem 0.3125rem #000; }
+
+@media only screen and (max-width: 900px) { body#index section.landing .absolute-wrapper .prose h1 { font-size: 34px; }
+  body#index section.landing .absolute-wrapper .prose h2 { font-size: 26px; } }
+
+@media only screen and (max-width: 700px) { body#index section.landing .absolute-wrapper .prose h1 { font-size: 28px; }
+  body#index section.landing .absolute-wrapper .prose h2 { font-size: 22px; } }
+
+body#index section.landing .absolute-wrapper .logo { position: absolute; z-index: 10; width: 100%; text-align: center; }
 
 body#index section.services { padding: 2.5em 0 0; height: 52.5em; width: 100%; background: #fff url("/img/index/services/services-bg-detail.jpg") no-repeat left bottom; background-size: contain; }
 

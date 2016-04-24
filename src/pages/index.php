@@ -1,11 +1,22 @@
 ---
 body-id: index
 ---
-{{> nav-1}}
+<header>
+	<nav id="top-bar-nav">
+		<div>
+			<ul class="menu expanded" style="padding: 0 20px;" data-magellan>
+				<li class="logo"><img srcset="/img/assets/logo/200x/esp-logo@2x.png 2x" src="/img/assets/logo/200x/esp-logo.png" alt=""></li>
+				<li class="text-right"><a href="#contact-section">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
 <section class="landing text-center">
-	<div class="prose-wrapper">
-		<h1 class="title">ESSENTIAL SOUND PRODUCTION</h1>
-		<h2 class="title">DJ ENTERTAINMENT | SOUND | LIGHTING</h2>
+	<div class="absolute-wrapper">
+		<div class="prose">
+			<h1 class="title">ESSENTIAL SOUND PRODUCTION</h1>
+			<h2 class="title">DJ ENTERTAINMENT | SOUND | LIGHTING</h2>
+		</div>
 	</div>
 </section>
 <!-- COMING SOON -->
@@ -34,15 +45,15 @@ body-id: index
 		</div>
 	</div>
 </section> -->
-<section class="contact">
+<section class="contact" id="contact-section">
 	<div class="row text-center">
 		<div class="medium-10 columns medium-push-1">
 			<h2 class="title">CONTACT INFO</h2>
-			<p id="inform-about-website">Our new website is on its way, but if you are interested in have ESP throw your next event or party and have questions, get in touch!</p>
+			<p id="inform-about-website">Our new website is on its way, but if you are interested in having ESP throw your next event or party and have questions, get in touch!</p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="medium-6 columns">
+		<div class="small-12 columns text-center">
 			<div class="profile">
 				<h4 class="body-font expanded">Jeff Henderson <span>Owner of Essential Sound Production</span></h4>
 				<p>(713) 874 - 4335 <br>
@@ -55,6 +66,5 @@ body-id: index
 				info@djomaar.com</p>
 			</div>
 		</div>
-		<div class="medium-6 columns"></div>
 	</div>
 </section>
