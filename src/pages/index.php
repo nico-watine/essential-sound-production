@@ -1,16 +1,6 @@
 ---
 body-id: index
 ---
-<header>
-	<nav id="top-bar-nav">
-		<div>
-			<ul class="menu expanded" style="padding: 0 20px;" data-magellan>
-				<li class="logo"><img srcset="/img/assets/logo/200x/esp-logo@2x.png 2x" src="/img/assets/logo/200x/esp-logo.png" alt=""></li>
-				<li class="text-right"><a href="#contact-section">CONTACT</a></li>
-			</ul>
-		</div>
-	</nav>
-</header>
 <section class="landing text-center">
 	<div class="absolute-wrapper">
 		<div class="prose">
@@ -19,15 +9,78 @@ body-id: index
 		</div>
 	</div>
 </section>
-<!-- COMING SOON -->
-<!-- <section class="services">
-	<div class="row text-center">
+<section class="services">
+	<div class="row text-center" id="row-title">
 		<h2 class="title">OUR SERVICES</h2>
 		<h3 class="body-font expanded">We offer a variety of event service packages to best fit your needs.</h3>
 	</div>
-</section> -->
-<!-- COMING SOON -->
-<!-- <section class="about">
+	<div class="row text-center packages">
+		<div class="medium-6 columns">
+			<div class="package" id="premium">
+				<h3 class="title">PREMIUM</h3>
+				<ul class="deets">
+					<li>6 Hours of Music</li>
+					<li>Premium QSC Sound</li>
+					<li>(2- K12, 1- KSub)</li>
+					<li>2 Aluminum Truss</li>
+					<li>2 Moving Heads</li>
+					<li>10 Up Lighting</li>
+					<li>2 LED Dance Lights</li>
+					<li>Wireless Mic &amp; DJ</li>
+				</ul>
+				<p>$1,000</p>
+			</div>
+		</div>
+		<div class="medium-6 columns">
+			<div class="package" id="deluxe">
+				<h3 class="title">DELUXE</h3>
+				<ul class="deets">
+					<li>6 Hours of Music</li>
+					<li>Premium QSC Sound</li>
+					<li>(4- K12, 2- KSub)</li>
+					<li>4 Aluminum Truss</li>
+					<li>4 Moving heads</li>
+					<li>20 Up Lighting</li>
+					<li>4 LED Dance Lights</li>
+					<li>Custom Gobo Stencil</li>
+					<li>Wirless Mic &amp; DJ</li>
+				</ul>
+				<p>$1,200</p>
+			</div>
+		</div>
+	</div>
+	<div class="row text-center packages">
+		<div class="small-12 columns">
+			<div class="package" id="ultra">
+				<h3 class="title">ULTRA</h3>
+				<div class="row">
+					<div class="medium-6 columns">
+						<ul class="deets">
+							<li>6 Hours of Music</li>
+							<li>Premium QSC Sound</li>
+							<li>(2- K153/152, 4-K12, 4-JBL PRX 18” Sub)*</li>
+							<li>4 Aluminum Truss</li>
+							<li>4 7R SkyBeam Moving Heads</li>
+							<li>30 Up Lighting</li>
+						</ul>					
+					</div>
+					<div class="medium-6 columns">
+						<ul class="deets">
+							<li>4 LED Dance Lights</li>
+							<li>Custom Gobo Stencil</li>
+							<li>2-Wireless Mic &amp; DJ</li>
+							<li>4 Concert-Grade Moving Heads</li>
+							<li>2- Sure Wireless Mics</li>
+							<li>MC &amp; DJ</li>
+						</ul>	
+					</div>
+				</div>
+				<p>$1,600</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="about">
 	<div class="row header">
 		<div class="small-12 columns">
 			<h2 class="title"><span>ABOUT ESP</span></h2>
@@ -44,7 +97,7 @@ body-id: index
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 <section class="contact" id="contact-section">
 	<div class="row text-center">
 		<div class="medium-10 columns medium-push-1">

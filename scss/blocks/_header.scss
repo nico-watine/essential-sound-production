@@ -27,26 +27,14 @@ header {
 			li.logo {
 				padding-top: rem(16);
 				
-				// img {
-				// 	max-width: 300px;
-				// 	width: 100%;
-				// 	height: auto;
-				// }
+				img {
+					max-width: 250px;
+					width: 100%;
+					height: auto;
+				}
 			}
 		}
 	}
 }
 
-// header#temporary {
-// 	aside {
-// 		float: right;
-// 		padding: rem(20) rem(30) 0 0;
 
-// 		a {
-// 			padding: 0;
-// 			font-size: rem(20);
-// 			color: #fff;
-// 			letter-spacing: rem(1.5);
-// 		}
-// 	}
-// }

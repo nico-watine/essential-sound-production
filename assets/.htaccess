@@ -616,4 +616,4 @@ RewriteRule ^(js|css)/(.+)\.(.+)\.(js|css)$ $1/$2.$4 [L]
 # ------------------------------------------------------------------------------
 # | Redirect all old sub pages of esp.com to new index
 # ------------------------------------------------------------------------------
-Redirect 301 /  http://essentialsoundproduction.com/
+# Redirect 301 /  http://essentialsoundproduction.com/
