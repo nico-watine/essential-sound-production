@@ -2125,9 +2125,9 @@ body#index section.services .row.packages .package#ultra { border-color: #BA43F0
 
 body#index section.services .row.packages .package#ultra h3, body#index section.services .row.packages .package#ultra p { background: #BA43F0; }
 
-body#index section.about { padding: 6.25em 0 2.5em; height: 52.5em; width: 100%; background: #000 url("/img/index/about/about-bg.jpg") no-repeat center center; background-size: cover; }
+body#index section.about { padding: 6.25em 0 2.5em; height: 46.875em; width: 100%; background: #000 url("/img/index/about/about-bg.jpg") no-repeat center center; background-size: cover; }
 
-@media screen and (max-width: 39.9375em) { body#index section.about { height: 31.25em; padding: 2.5em 0; background: #000 url("/img/index/about/about-bg@small.jpg") no-repeat center center; background-size: cover; } }
+@media screen and (max-width: 39.9375em) { body#index section.about { height: auto; padding: 2.5em 0; background: #000 url("/img/index/about/about-bg@small.jpg") no-repeat center center; background-size: cover; } }
 
 body#index section.about h2 { color: #fff; text-shadow: 0 0.25rem 0.3125rem #000; }
 

@@ -3,14 +3,14 @@
 body#index {
 	section.about {
 		padding: em(100) 0 em(40);
-		height: em(840);
+		height: em(750);
 		width: 100%;
 		background: #000 url('/img/index/about/about-bg.jpg') no-repeat center center;
 		background-size: cover;
 
 
 		@include breakpoint(small only) {
-			height: em(500);
+			height: auto;
 			padding: em(40) 0;
 			background: #000 url('/img/index/about/about-bg@small.jpg') no-repeat center center;
 			background-size: cover;
