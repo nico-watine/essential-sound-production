@@ -1,7 +1,5 @@
 @import "../../_settings.scss";
 
-$min-840: "only screen and (min-width : 52.500em)";
-
 body#index {
 	section.services {
 		padding: em(40) 0 0;
@@ -13,81 +11,106 @@ body#index {
 			margin-bottom: em(50);
 		}
 
-		.row.packages {
-			.package {
-				margin-bottom: em(35);
-				background: #fff;
-				box-shadow: $z-2;
-				border: em(3) solid #000;
-				position: relative;
+		.package-plan {
+			background: #fff;
+			border: em(3) solid #000;
+			box-shadow: $z-3;
+			position: relative;
+			margin-bottom: em(45);
 
-				p {
-					position: absolute;
-					bottom: 0;
-					padding: rem(8) 0;
-					width: 100%;
-					color: #fff;
-					margin: 0;
+			h3 {
+				padding: rem(12) 0;
+				color: #fff;
+				margin: 0;
+			}
+
+			p {
+				padding: rem(8) 0;
+				width: 100%;
+				color: #fff;
+				margin: rem(12) 0 0;
+
+				@include breakpoint(medium) {
+					font-size: rem(25);
+				}
+			}
+
+			ul.accordion {
+				list-style-type: none;
+				margin: 0;
+				padding: rem(16) rem(8);
+
+				li {
+					letter-spacing: rem(1.5);
 
 					@include breakpoint(medium) {
 						font-size: rem(25);
 					}
 				}
 
-				h3 {
-					padding: rem(12) 0;
-					color: #fff;
-					margin: 0;
-				}
+				li.accordion-item {
+					font-size: inherit;
 
-				ul.deets {
-					list-style-type: none;
-					margin: 0;
-					padding: rem(16) rem(8);
-
-					li {
-						letter-spacing: rem(1.5);
+					.accordion-content {
+						padding: rem(12);
+						margin-bottom: rem(12);
+						border-top: 1px solid #e6e6e6;
 
 						@include breakpoint(medium) {
-							font-size: rem(25);
+							font-size: rem(20);
 						}
+					}
+
+					a {
+						border: 0;
+						background: none;
+						font-size: rem(16);
+						text-decoration: underline;
+						letter-spacing: 0;
+						padding: 0 rem(16); 
+						margin-bottom: rem(8);
+
+						display: initial;
+						line-height: 1;
+
+						&:hover {
+							text-decoration: none;
+						}
+					}
+
+					a::before {
+						right: 0;
 					}
 				}
 			}
+		}
 
-			.package#premium {
-				border-color: #0EA6D7;
-				min-height: em(530);
+		.package-plan#premium {
+			border-color: #0EA6D7;
 
-				h3,
-				p {
-					background: #0EA6D7;
-				}
+
+			h3,
+			p {
+				background-color: #0EA6D7;
 			}
+		}
 
-			.package#deluxe {
-				border-color: #99CE57;
-				min-height: em(530);
+		.package-plan#deluxe {
+			border-color: #99CE57;
 
-				h3,
-				p {
-					background: #99CE57;
-				}
+
+			h3,
+			p {
+				background: #99CE57;
 			}
+		}
 
-			.package#ultra {
-				border-color: #BA43F0;
+		.package-plan#ultra {
+			border-color: #BA43F0;
 
-				@media #{$min-840} {
-					min-height: em(450);
-				}
-
-				min-height: em(500);
-
-				h3,
-				p {
-					background: #BA43F0;
-				}
+			h3,
+			p {
+				background: #BA43F0;
 			}
 		}
 	}

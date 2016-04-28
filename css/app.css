@@ -2105,33 +2105,43 @@ body#index section.services { padding: 2.5em 0 0; width: 100%; background: #fff 
 
 body#index section.services .row#row-title { margin-bottom: 3.125em; }
 
-body#index section.services .row.packages .package { margin-bottom: 2.1875em; background: #fff; box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.3); border: 0.1875em solid #000; position: relative; }
+body#index section.services .package-plan { background: #fff; border: 0.1875em solid #000; box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3); position: relative; margin-bottom: 2.8125em; }
 
-body#index section.services .row.packages .package p { position: absolute; bottom: 0; padding: 0.5rem 0; width: 100%; color: #fff; margin: 0; }
+body#index section.services .package-plan h3 { padding: 0.75rem 0; color: #fff; margin: 0; }
 
-@media screen and (min-width: 40em) { body#index section.services .row.packages .package p { font-size: 1.5625rem; } }
+body#index section.services .package-plan p { padding: 0.5rem 0; width: 100%; color: #fff; margin: 0.75rem 0 0; }
 
-body#index section.services .row.packages .package h3 { padding: 0.75rem 0; color: #fff; margin: 0; }
+@media screen and (min-width: 40em) { body#index section.services .package-plan p { font-size: 1.5625rem; } }
 
-body#index section.services .row.packages .package ul.deets { list-style-type: none; margin: 0; padding: 1rem 0.5rem; }
+body#index section.services .package-plan ul.accordion { list-style-type: none; margin: 0; padding: 1rem 0.5rem; }
 
-body#index section.services .row.packages .package ul.deets li { letter-spacing: 0.09375rem; }
+body#index section.services .package-plan ul.accordion li { letter-spacing: 0.09375rem; }
 
-@media screen and (min-width: 40em) { body#index section.services .row.packages .package ul.deets li { font-size: 1.5625rem; } }
+@media screen and (min-width: 40em) { body#index section.services .package-plan ul.accordion li { font-size: 1.5625rem; } }
 
-body#index section.services .row.packages .package#premium { border-color: #0EA6D7; min-height: 33.125em; }
+body#index section.services .package-plan ul.accordion li.accordion-item { font-size: inherit; }
 
-body#index section.services .row.packages .package#premium h3, body#index section.services .row.packages .package#premium p { background: #0EA6D7; }
+body#index section.services .package-plan ul.accordion li.accordion-item .accordion-content { padding: 0.75rem; margin-bottom: 0.75rem; border-top: 1px solid #e6e6e6; }
 
-body#index section.services .row.packages .package#deluxe { border-color: #99CE57; min-height: 33.125em; }
+@media screen and (min-width: 40em) { body#index section.services .package-plan ul.accordion li.accordion-item .accordion-content { font-size: 1.25rem; } }
 
-body#index section.services .row.packages .package#deluxe h3, body#index section.services .row.packages .package#deluxe p { background: #99CE57; }
+body#index section.services .package-plan ul.accordion li.accordion-item a { border: 0; background: none; font-size: 1rem; text-decoration: underline; letter-spacing: 0; padding: 0 1rem; margin-bottom: 0.5rem; display: initial; line-height: 1; }
 
-body#index section.services .row.packages .package#ultra { border-color: #BA43F0; min-height: 31.25em; }
+body#index section.services .package-plan ul.accordion li.accordion-item a:hover { text-decoration: none; }
 
-@media only screen and (min-width: 52.500em) { body#index section.services .row.packages .package#ultra { min-height: 28.125em; } }
+body#index section.services .package-plan ul.accordion li.accordion-item a::before { right: 0; }
 
-body#index section.services .row.packages .package#ultra h3, body#index section.services .row.packages .package#ultra p { background: #BA43F0; }
+body#index section.services .package-plan#premium { border-color: #0EA6D7; }
+
+body#index section.services .package-plan#premium h3, body#index section.services .package-plan#premium p { background-color: #0EA6D7; }
+
+body#index section.services .package-plan#deluxe { border-color: #99CE57; }
+
+body#index section.services .package-plan#deluxe h3, body#index section.services .package-plan#deluxe p { background: #99CE57; }
+
+body#index section.services .package-plan#ultra { border-color: #BA43F0; }
+
+body#index section.services .package-plan#ultra h3, body#index section.services .package-plan#ultra p { background: #BA43F0; }
 
 body#index section.about { padding: 6.25em 0 2.5em; height: 46.875em; width: 100%; background: #000 url("/img/index/about/about-bg.jpg") no-repeat center center; background-size: cover; }
 
