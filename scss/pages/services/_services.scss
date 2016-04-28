@@ -14,8 +14,9 @@ body#services {
 		.package-plan {
 			background: #fff;
 			border: em(3) solid #000;
-			box-shadow: $z-2;
+			box-shadow: $z-3;
 			position: relative;
+			margin-bottom: em(45);
 
 			h3 {
 				padding: rem(12) 0;
@@ -90,6 +91,24 @@ body#services {
 			h3,
 			p {
 				background-color: #0EA6D7;
+			}
+		}
+
+		.package-plan#deluxe {
+			border-color: #99CE57;
+
+			h3,
+			p {
+				background: #99CE57;
+			}
+		}
+
+		.package-plan#ultra {
+			border-color: #BA43F0;
+
+			h3,
+			p {
+				background: #BA43F0;
 			}
 		}
 	}
