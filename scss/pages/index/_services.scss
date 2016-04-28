@@ -59,6 +59,20 @@ body#index {
 						@include breakpoint(medium) {
 							font-size: rem(20);
 						}
+
+						.widget {
+							display: inline-block;
+
+							@include breakpoint(small only) {
+								margin-bottom: 16px;
+							}
+
+							img.speaker {
+								padding-top: 10px;
+								height: 200px;
+								width: auto;
+							}
+						}
 					}
 
 					a {

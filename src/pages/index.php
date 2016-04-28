@@ -24,21 +24,22 @@ body-id: index
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Speaker Details</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<span class="widget">2 - K12 Speakers <br><img class="speaker" src="/img/assets/equipment-rental/qsc/K12.jpg" alt="QSC K12 Speaker"></span>
+							<span class="widget">1 - KSub Speaker <br><img class="speaker" src="/img/assets/equipment-rental/qsc/KSub.jpg" alt="QSC KSub"></span>
 						</div>
 					</li>
 					<li>2 Aluminum Truss &amp; 2 Moving Light Heads<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/aluminum-truss/aluminum-truss-1.jpg" alt="2 Aluminum Truss with Moving Light Heads">
 						</div>
 					</li>
 					<li>10 Up Lighting<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/uplighting/uplighting-example.jpg" alt="Essential Sound Production Uplighting Example">
 						</div>
 					</li>
 					<li>2 LED Dance Lights<div data-tab-content></div></li>
@@ -56,21 +57,22 @@ body-id: index
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Speaker Details</a>
 						<div class="accordion-content" data-tab-content>
-							4 - K12 Speakers <br>2 - KSub Speaker
+							<span class="widget">4 - K12 Speakers <br><img class="speaker" src="/img/assets/equipment-rental/qsc/K12.jpg" alt="QSC K12 Speaker"></span>
+							<span class="widget">2 - KSub Speaker <br><img class="speaker" src="/img/assets/equipment-rental/qsc/KSub.jpg" alt="QSC KSub"></span>
 						</div>
 					</li>
 					<li>4 Aluminum Truss &amp; 4 Moving Light Heads<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/aluminum-truss/aluminum-truss-2.jpg" alt="2 Aluminum Truss with Moving Light Heads">
 						</div>
 					</li>
 					<li>20 Up Lighting<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/uplighting/uplighting-example.jpg" alt="Essential Sound Production Uplighting Example">
 						</div>
 					</li>
 					<li>4 LED Dance Lights<div data-tab-content></div></li>
@@ -78,7 +80,7 @@ body-id: index
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/gobo/gobo-example-1.jpg" alt="Custom Essential Sound Production Gobo Design">
 						</div>
 					</li>
 					<li>Wireless Mic &amp; DJ<div data-tab-content></div></li>
@@ -107,14 +109,14 @@ body-id: index
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/aluminum-truss/aluminum-truss-2.jpg" alt="2 Aluminum Truss with Moving Light Heads">
 						</div>
 					</li>
 					<li>30 Up Lighting<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/uplighting/uplighting-example-2.jpg" alt="Essential Sound Production Uplighting Example">
 						</div>
 					</li>
 					<li>4 LED Dance Lights<div data-tab-content></div></li>
@@ -122,7 +124,7 @@ body-id: index
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							2 - K12 Speakers <br>1 - KSub Speaker
+							<img src="/img/assets/equipment-rental/gobo/gobo-example-1.jpg" alt="Custom Essential Sound Production Gobo Design">
 						</div>
 					</li>
 					<li>2 - Wireless Mic &amp; DJ<div data-tab-content></div></li>
