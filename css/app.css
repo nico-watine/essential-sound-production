@@ -2163,15 +2163,19 @@ body#services section.services .package-plan ul.accordion { list-style-type: non
 
 body#services section.services .package-plan ul.accordion li { letter-spacing: 0.09375rem; }
 
-body#services section.services .package-plan ul.accordion li a { border: 0; background: none; font-size: 1rem; text-decoration: underline; letter-spacing: 0; padding: 0 1rem; margin-bottom: 0.5rem; }
-
-body#services section.services .package-plan ul.accordion li a:hover { text-decoration: none; }
-
 @media screen and (min-width: 40em) { body#services section.services .package-plan ul.accordion li { font-size: 1.5625rem; } }
 
-body#services section.services .package-plan ul.accordion li .accordion-content { padding: 0 0.75rem 0.75rem; margin-bottom: 0.75rem; }
+body#services section.services .package-plan ul.accordion li.accordion-item { font-size: inherit; }
 
-@media screen and (min-width: 40em) { body#services section.services .package-plan ul.accordion li .accordion-content { font-size: 1.25rem; } }
+body#services section.services .package-plan ul.accordion li.accordion-item .accordion-content { padding: 0.75rem; margin-bottom: 0.75rem; border-top: 1px solid #e6e6e6; }
+
+@media screen and (min-width: 40em) { body#services section.services .package-plan ul.accordion li.accordion-item .accordion-content { font-size: 1.25rem; } }
+
+body#services section.services .package-plan ul.accordion li.accordion-item a { border: 0; background: none; font-size: 1rem; text-decoration: underline; letter-spacing: 0; padding: 0 1rem; margin-bottom: 0.5rem; display: initial; line-height: 1; }
+
+body#services section.services .package-plan ul.accordion li.accordion-item a:hover { text-decoration: none; }
+
+body#services section.services .package-plan ul.accordion li.accordion-item a::before { right: 0; }
 
 body#services section.services .package-plan#premium { border-color: #0EA6D7; }
 

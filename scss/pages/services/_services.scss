@@ -42,6 +42,24 @@ body#services {
 				li {
 					letter-spacing: rem(1.5);
 
+					@include breakpoint(medium) {
+						font-size: rem(25);
+					}
+				}
+
+				li.accordion-item {
+					font-size: inherit;
+
+					.accordion-content {
+						padding: rem(12);
+						margin-bottom: rem(12);
+						border-top: 1px solid #e6e6e6;
+
+						@include breakpoint(medium) {
+							font-size: rem(20);
+						}
+					}
+
 					a {
 						border: 0;
 						background: none;
@@ -51,22 +69,16 @@ body#services {
 						padding: 0 rem(16); 
 						margin-bottom: rem(8);
 
+						display: initial;
+						line-height: 1;
+
 						&:hover {
 							text-decoration: none;
 						}
 					}
 
-					@include breakpoint(medium) {
-						font-size: rem(25);
-					}
-
-					.accordion-content {
-						padding: 0 rem(12) rem(12);
-						margin-bottom: rem(12);
-
-						@include breakpoint(medium) {
-							font-size: rem(20);
-						}
+					a::before {
+						right: 0;
 					}
 				}
 			}
