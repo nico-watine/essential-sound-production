@@ -6,8 +6,8 @@ body-id: services
 		<h2 class="title">OUR SERVICES</h2>
 		<h3 class="body-font expanded">We offer a variety of event service packages to best fit your needs.</h3>
 	</div>
-	<div class="row text-center">
-		<div class="small-12 columns">
+	<div class="expanded row text-center">
+		<div class="large-6 columns">
 			<div class="package-plan" id="premium">
 				<h3 class="title">PREMIUM</h3>
 				<ul class="accordion" data-accordion data-allow-all-closed="true">
@@ -39,7 +39,7 @@ body-id: services
 				<p>$1,000</p>
 			</div>
 		</div>
-		<div class="small-12 columns">
+		<div class="large-6 columns">
 			<div class="package-plan" id="deluxe">
 				<h3 class="title">DELUXE</h3>
 				<ul class="accordion" data-accordion data-allow-all-closed="true">
@@ -78,6 +78,8 @@ body-id: services
 				<p>$1,200</p>
 			</div>
 		</div>
+	</div>
+	<div class="row text-center">
 		<div class="small-12 columns">
 			<div class="package-plan" id="ultra">
 				<h3 class="title">ULTRA</h3>
