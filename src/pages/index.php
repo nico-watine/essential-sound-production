@@ -99,17 +99,17 @@ body-id: index
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Speaker Details</a>
 						<div class="accordion-content" data-tab-content>
-							<span style="font-size: 16px;">- Complete Setup According To Venue Size -</span><br>
-							2 - K153/152 Speakers <br>
-							4 - K12 Speakers <br>
-							4 - JBL PRX 18" Sub Speakers
+							<span style="font-size: 16px; display: block;">- Complete Setup According To Venue Size -</span>
+							<span class="widget">2 - K153/152 Speakers <br><img class="speaker" src="/img/assets/equipment-rental/qsc/k153.jpg" alt="QSC K153/152 Speaker"></span>
+							<span class="widget">4 - K12 Speakers <br><img class="speaker" src="/img/assets/equipment-rental/qsc/K12.jpg" alt="QSC K12 Speaker"></span>
+							<span class="widget">4 - JBL PRX 18" Sub Speakers <br><img class="speaker" src="/img/assets/equipment-rental/jbl/jbl.jpg" alt="JBL PRX Sub"></span>
 						</div>
 					</li>
 					<li>4 Aluminum Truss &amp; 4 7R SkyBeam Moving Heads<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
 						<a href="#" class="accordion-title">Image Examples</a>
 						<div class="accordion-content" data-tab-content>
-							<img src="/img/assets/equipment-rental/aluminum-truss/aluminum-truss-2.jpg" alt="2 Aluminum Truss with Moving Light Heads">
+							<img src="/img/assets/equipment-rental/aluminum-truss/aluminum-truss-3.jpg" alt="2 Aluminum Truss with Moving Light Heads">
 						</div>
 					</li>
 					<li>30 Up Lighting<div data-tab-content></div></li>

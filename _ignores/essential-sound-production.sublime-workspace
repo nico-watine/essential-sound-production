@@ -196,42 +196,26 @@
 	"buffers":
 	[
 		{
+			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_services.scss",
+			"settings":
+			{
+				"buffer_size": 2006,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages/index.php",
 			"settings":
 			{
-				"buffer_size": 5730,
+				"buffer_size": 10198,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/app.scss",
+			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/gulpfile.babel.js",
 			"settings":
 			{
-				"buffer_size": 2127,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/js/src/app.js",
-			"settings":
-			{
-				"buffer_size": 101,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/config.yml",
-			"settings":
-			{
-				"buffer_size": 2928,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_gallery.scss",
-			"settings":
-			{
-				"buffer_size": 669,
+				"buffer_size": 4044,
 				"line_ending": "Unix"
 			}
 		}
@@ -345,24 +329,22 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/img",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/img/index",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/img/index/gallery",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/img/index/gallery/slides",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/layouts",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/partials"
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com"
 	],
 	"file_history":
 	[
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/layouts/default.html",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/app.scss",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/config.yml",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_about.scss",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_index.scss",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/services/_services.scss",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages/services.php",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/js/src/app.js",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_services.scss",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_gallery.scss",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/config.yml",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages/index.php",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_about.scss",
+		"/Users/nico/SNC Projects/Essential Sound Production/Project Resources/gmail-account.txt",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/layouts/default.html",
+		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_index.scss",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/components/_typography.scss",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/blocks/_header.scss",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/partials/nav-1.html",
@@ -375,10 +357,8 @@
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_contact.scss",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_landing.scss",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/components/extras/_sticky-footer.scss",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages/index.php",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/assets/sitemap.xml",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/_ignores/favicon-head.html",
-		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/js/src/app.js",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/dist/js/app-min.js",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/dist/index.php",
 		"/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/node_modules/babel-core/node_modules/lodash/lang/isNative.js",
@@ -480,11 +460,7 @@
 		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/lockbridge-notredame-louvre-sacrecoeur-dark.php",
 		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/gyfcat-lockbridge-notredame-louvre.php",
 		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_gfycat.scss",
-		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/style.scss",
-		"/Users/nico/Desktop/beta.html",
-		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_parallax-ring.scss",
-		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/assets/neat/_grid-settings.scss",
-		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/js/src/proposal-story.js"
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/style.scss"
 	],
 	"find":
 	{
@@ -503,6 +479,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src",
+			"div",
+			"column",
+			"package",
+			"<li>",
+			" style=\"padding-top: 0; padding-bottom: 12px; margin-bottom: 12px;\"",
 			"touch",
 			"show-for-sr",
 			"<fig",
@@ -624,13 +606,7 @@
 			"30",
 			"530",
 			"900",
-			"<br>",
-			"attending",
-			"attendance",
-			"span",
-			"site",
-			"0px",
-			"[fontawesome"
+			"<br>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -673,24 +649,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages/index.php",
+					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_services.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5730,
+						"buffer_size": 2006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								412
+								1262,
+								1262
 							]
 						],
 						"settings":
@@ -698,156 +674,157 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 848.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/src/pages/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/app.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1280,
-								1280
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7.0,
+						"translation.y": 9.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -855,99 +832,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/js/src/app.js",
-					"semi_transient": false,
+					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/gulpfile.babel.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 101,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								101,
-								101
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2928,
+						"buffer_size": 4044,
 						"regions":
 						{
 						},
@@ -963,51 +852,46 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1017,108 +901,22 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 676.0,
+						"translation.y": 2125.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/nico/SNC Projects/Essential Sound Production/Site Folder/essentialsoundproduction.com/scss/pages/index/_gallery.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								167,
-								167
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1173,16 +971,24 @@
 		"selected_items":
 		[
 			[
-				"conf",
-				"config.yml"
+				"app",
+				"scss/app.scss"
+			],
+			[
+				"servsc",
+				"scss/pages/index/_services.scss"
 			],
 			[
 				"appj",
 				"js/src/app.js"
 			],
 			[
-				"app",
-				"scss/app.scss"
+				"servscs",
+				"scss/pages/index/_services.scss"
+			],
+			[
+				"conf",
+				"config.yml"
 			],
 			[
 				"typo",
@@ -1675,14 +1481,6 @@
 			[
 				"",
 				"_config.yml"
-			],
-			[
-				"url",
-				"_ignores/short-urls.txt"
-			],
-			[
-				"griset",
-				"assets/neat/_grid-settings.scss"
 			]
 		],
 		"width": 0.0
@@ -1690,9 +1488,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "ca",
+		"last_filter": "huf",
 		"selected_items":
 		[
+			[
+				"huf",
+				"~/SNC Projects/Houston Uncovered/Site Folder/houstonuncovered.foundation/_ignores/hu-foundation.sublime-project"
+			],
+			[
+				"hufo",
+				"~/SNC Projects/Houston Uncovered/Site Folder/houstonuncovered.foundation/_ignores/hu-foundation.sublime-project"
+			],
+			[
+				"hu",
+				"~/SNC Projects/Houston Uncovered/Site Folder/houstonuncovered.com/_ignores/h-u.sublime-project"
+			],
 			[
 				"ca",
 				"~/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/cabc.sublime-project"
@@ -1848,7 +1658,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 199.0,
 	"status_bar_visible": true,
 	"template_settings":
