@@ -28,6 +28,17 @@ header {
 					font-size: rem(22);
 					color: #fff;
 					letter-spacing: rem(1.5);
+
+					@include breakpoint(small only) {
+						font-size: rem(18);
+						padding: rem(18);
+					}
+				}
+
+				a:hover,
+				a:focus {
+					background: #f1f1f1;
+					color: #000;
 				}
 			}
 

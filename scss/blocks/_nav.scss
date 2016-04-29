@@ -1,2 +1,46 @@
 @import "../_settings.scss";
 
+.title-bar,
+#top-bar-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #000;
+}
+
+.title-bar {
+	z-index: 200;
+	text-align: right;
+	padding: rem(12);
+	box-shadow: $z-2;
+
+	.title-bar-title {
+		letter-spacing: rem(1.5);
+		font-size: rem(18);
+		font-weight: inherit;
+	}
+}
+
+#top-bar-nav {
+	z-index: 100;
+}
+
+.custom-dropdown-pane.dropdown-pane {
+	background-color: none;
+	border: none;
+	padding: 0;
+	width: 100% !important;
+	left: 0 !important;
+	box-shadow: $z-2;
+
+	@include breakpoint(medium) {
+		visibility: visible !important;
+		top: 0 !important;;
+	}
+}
+
+.dropdown-pane#hidden-menu {
+	display: none;
+	visibility: hidden;
+}

@@ -1,7 +1,22 @@
 ---
 body-id: index
 ---
-{{>nav-fix-magellan-serv-about-cont }}
+<header>
+	<div class="title-bar show-for-small-only" data-hide-for="medium">
+		<div class="title-bar-title">MENU</div>
+		<button class="menu-icon" type="button" data-toggle="top-bar-nav"></button>
+	</div>
+
+	<nav class="custom-dropdown-pane dropdown-pane" data-margin-top="0" data-dropdown data-close-on-click="true" data-margin-bottom="0" id="top-bar-nav">
+		<ul class="vertical medium-horizontal menu expanded text-center" data-magellan>
+			<li>&nbsp;</li>
+			<li><a data-toggle="hidden-menu" href="#services-section">SERVICES</a></li>
+			<li><a data-toggle="hidden-menu" href="#about-section">ABOUT</a></li>
+			<li><a data-toggle="hidden-menu" href="#contact-section">CONTACT</a></li>
+		</ul>
+	</nav>
+</header>
+
 <section class="landing text-center">
 	<div class="absolute-wrapper">
 		<div class="prose">
@@ -215,3 +230,5 @@ body-id: index
 		</div>
 	</div>
 </section>
+
+<div class="dropdown-pane" id="hidden-menu" data-dropdown data-close-on-click="true" ></div>
