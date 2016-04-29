@@ -35,10 +35,16 @@ header {
 					}
 				}
 
-				a:hover,
-				a:focus {
+				a:hover {
 					background: #f1f1f1;
 					color: #000;
+				}
+
+				@include breakpoint(small only) {
+					a:focus {
+						background: #f1f1f1;
+						color: #000;
+					}
 				}
 			}
 

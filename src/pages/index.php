@@ -11,6 +11,7 @@ body-id: index
 		<ul class="vertical medium-horizontal menu expanded text-center" data-magellan>
 			<li>&nbsp;</li>
 			<li><a data-toggle="hidden-menu" href="#services-section">SERVICES</a></li>
+			<li><a data-toggle="hidden-menu" href="#gallery-section">GALLERY</a></li>
 			<li><a data-toggle="hidden-menu" href="#about-section">ABOUT</a></li>
 			<li><a data-toggle="hidden-menu" href="#contact-section">CONTACT</a></li>
 		</ul>
