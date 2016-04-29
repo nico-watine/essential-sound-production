@@ -45,10 +45,10 @@ PATHS:
     # Individual Foundation components
     - "bower_components/foundation-sites/js/foundation.orbit.js"
     - "bower_components/foundation-sites/js/foundation.magellan.js"
-    # If you aren't using a component, just remove it from the list
-    - "bower_components/foundation-sites/js/foundation.abide.js"
     - "bower_components/foundation-sites/js/foundation.accordion.js"
     - "bower_components/foundation-sites/js/foundation.accordionMenu.js"
+    # If you aren't using a component, just remove it from the list
+    - "bower_components/foundation-sites/js/foundation.abide.js"
     - "bower_components/foundation-sites/js/foundation.drilldown.js"
     - "bower_components/foundation-sites/js/foundation.dropdown.js"
     - "bower_components/foundation-sites/js/foundation.dropdownMenu.js"

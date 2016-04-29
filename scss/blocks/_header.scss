@@ -2,22 +2,29 @@
 
 
 header {
-	position: absolute;
-	top: 0;
-	z-index: 55;
+	// position: absolute;
+	// top: 0;
+	// z-index: 55;
 	width: 100%;
-	height: em(80);
-	background: #000;
-	box-shadow: 0 em(1) em(4) 0 rgba(0,0,0,0.37);
+	// height: em(80);
+	// background: #000;
+	// box-shadow: 0 em(1) em(4) 0 rgba(0,0,0,0.37);
 
 	nav {
+		// height: em(80);
+		// background: #000;
+
 		ul.menu {
+			background: #000;
+			// box-shadow: 0 em(1) em(4) 0 rgba(0,0,0,0.37);
+			// height: em(80);
+
 			li {
-				vertical-align: top;
-				padding-top: rem(28);
+				// vertical-align: top;
+				// padding-top: rem(28);
 
 				a {
-					padding: 0;
+					padding: rem(24) 0;
 					font-size: rem(22);
 					color: #fff;
 					letter-spacing: rem(1.5);

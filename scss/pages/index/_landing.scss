@@ -14,7 +14,8 @@ body#index {
 			position: absolute;
 			top: 30%;
 			width: 100%;
-			z-index: 200;
+			// z-index: 200;
+			z-index: 1;
 			padding: em(80) 0 0;
 
 			.prose {

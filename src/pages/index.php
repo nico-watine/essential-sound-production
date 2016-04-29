@@ -1,6 +1,7 @@
 ---
 body-id: index
 ---
+{{>nav-fix-magellan-serv-about-cont }}
 <section class="landing text-center">
 	<div class="absolute-wrapper">
 		<div class="prose">
@@ -9,8 +10,8 @@ body-id: index
 		</div>
 	</div>
 </section>
-<section class="services">
-	<div class="row text-center" id="row-title">
+<section class="services" id="services-section">
+	<div class="row text-center" style="margin-top: 20px;" id="row-title">
 		<h2 class="title">OUR SERVICES</h2>
 		<h3 class="body-font expanded">We offer a variety of event service packages to best fit your needs.</h3>
 	</div>
@@ -134,45 +135,46 @@ body-id: index
 		</div>
 	</div>
 </section>
-<section class="photo-gallery">
+<!-- PHOTO GALLERY COMING SOON -->
+<!-- <section class="photo-gallery">
 	<div class="row header text-center">
 		<h2 class="title"><span>PHOTO GALLERY</span></h2>
 	</div>
 	<div class="row">
-		<!-- <div class="small-12 columns"> -->
+		<div class="small-12 columns">
 			<div class="orbit" role="region" aria-label="Essential Sound Production Photo Gallery" data-orbit>
 				<ul class="orbit-container">
 					<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span> &#9664;&#xFE0E;</button>
 					<button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
 					<li class="orbit-slide is-active">
 						<img class="orbit-image" src="/img/index/gallery/slides/1.jpg" alt="">
-						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
 					</li>
 					<li class="orbit-slide">
 						<img class="orbit-image" src="/img/index/gallery/slides/2.jpg" alt="">
-						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
 					</li>
 					<li class="orbit-slide">
 						<img class="orbit-image" src="/img/index/gallery/slides/3.jpg" alt="">
-						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
 					</li>
 					<li class="orbit-slide">
 						<img class="orbit-image" src="/img/index/gallery/slides/4.jpg" alt="">
-						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
 					</li>
 				</ul>
 				<nav class="orbit-bullets">
 					<button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
 					<button data-slide="1"></button>
-					<!-- <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button> -->
+					<button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
 					<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
 					<button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
 				</nav>
 			</div>
-		<!-- </div> -->
+		</div>
 	</div>
-</section>
-<section class="about">
+</section> -->
+<section class="about" id="about-section">
 	<div class="row header">
 		<div class="small-12 columns">
 			<h2 class="title"><span>ABOUT ESP</span></h2>
@@ -192,9 +194,9 @@ body-id: index
 </section>
 <section class="contact" id="contact-section">
 	<div class="row text-center">
-		<div class="medium-10 columns medium-push-1">
+		<div class="small-12 columns">
 			<h2 class="title">CONTACT INFO</h2>
-			<p id="inform-about-website">Our new website is on its way, but if you are interested in having ESP throw your next event or party and have questions, get in touch!</p>
+			<p id="inform-about-website">If you are interested in having Essential Sound Production throw your next event or party, get in touch!</p>
 		</div>
 	</div>
 	<div class="row">
