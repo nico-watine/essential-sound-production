@@ -44,3 +44,68 @@
 	display: none;
 	visibility: hidden;
 }
+
+
+
+
+nav {
+	// height: em(80);
+	// background: #000;
+
+	@include breakpoint(medium) {
+		height: 70px;
+		overflow: hidden;
+		background: #000;
+	}
+
+	ul.menu {
+		// background: #000;
+
+		// box-shadow: 0 em(1) em(4) 0 rgba(0,0,0,0.37);
+		// height: em(80);
+
+		li {
+			vertical-align: top;
+			// padding-top: rem(28);
+
+			// @include breakpoint(medium) {
+			// 	height: 70px;
+			// 	overflow: hidden;
+			// }
+
+			a {
+				padding: rem(24) 0;
+				font-size: rem(22);
+				color: #fff;
+				letter-spacing: rem(1.5);
+
+				@include breakpoint(small only) {
+					font-size: rem(18);
+					padding: rem(18);
+				}
+			}
+
+			a:hover {
+				background: #f1f1f1;
+				color: #000;
+			}
+
+			@include breakpoint(small only) {
+				a:focus {
+					background: #f1f1f1;
+					color: #000;
+				}
+			}
+		}
+
+		li.logo {
+			padding-top: rem(16);
+			
+			img {
+				max-width: 250px;
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}

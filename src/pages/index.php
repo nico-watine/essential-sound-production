@@ -2,6 +2,10 @@
 body-id: index
 ---
 <header>
+	<div id="logo-bar" style="position: fixed; z-index: 500; padding-top: 18px;">
+		<img src="/img/assets/logo/200x/esp-logo.png" alt="Essential Sound Production Logo">
+	</div>
+
 	<div class="title-bar show-for-small-only" data-hide-for="medium">
 		<div class="title-bar-title">MENU</div>
 		<button class="menu-icon" type="button" data-toggle="top-bar-nav"></button>
@@ -9,9 +13,9 @@ body-id: index
 
 	<nav class="custom-dropdown-pane dropdown-pane" data-margin-top="0" data-dropdown data-close-on-click="true" data-margin-bottom="0" id="top-bar-nav">
 		<ul class="vertical medium-horizontal menu expanded text-center" data-magellan>
-			<li>&nbsp;</li>
 			<li><a data-toggle="hidden-menu" href="#services-section">SERVICES</a></li>
 			<li><a data-toggle="hidden-menu" href="#gallery-section">GALLERY</a></li>
+			<li>&nbsp;</li>
 			<li><a data-toggle="hidden-menu" href="#about-section">ABOUT</a></li>
 			<li><a data-toggle="hidden-menu" href="#contact-section">CONTACT</a></li>
 		</ul>
