@@ -49,9 +49,7 @@
 
 
 
-nav {
-	// height: em(80);
-	// background: #000;
+nav#top-bar-nav {
 
 	@include breakpoint(medium) {
 		height: 70px;

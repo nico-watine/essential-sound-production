@@ -2,10 +2,10 @@
 
 body#index {
 	section.photo-gallery {
-		padding: em(40) 0 em(40);
+		padding: em(40) 0 em(60);
 		border-bottom: em(30) solid #000;
 		width: 100%;
-		height: 1000px;
+
 		background: #000 url('/img/index/gallery/gallery-bg.jpg') no-repeat center center;
 		background-size: cover;
 
@@ -25,6 +25,13 @@ body#index {
 			span {
 				background: rgba(0,0,0,0.30);
 				padding: rem(16) rem(20) rem(12);
+			}
+		}
+
+		.orbit {
+			.orbit-container {
+				border: em(4) solid #fff;
+				box-shadow: $z-5;
 			}
 		}
 	}

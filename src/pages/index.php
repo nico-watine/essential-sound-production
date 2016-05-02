@@ -155,45 +155,77 @@ body-id: index
 		</div>
 	</div>
 </section>
-<!-- PHOTO GALLERY COMING SOON -->
-<!-- <section class="photo-gallery">
+<section class="photo-gallery" id="gallery-section">
 	<div class="row header text-center">
-		<h2 class="title"><span>PHOTO GALLERY</span></h2>
+		<h2 class="title" style="margin-top: 30px;"><span>PHOTO GALLERY</span></h2>
 	</div>
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="medium-10 medium-push-1 large-8 large-push-2 columns">
 			<div class="orbit" role="region" aria-label="Essential Sound Production Photo Gallery" data-orbit>
 				<ul class="orbit-container">
 					<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span> &#9664;&#xFE0E;</button>
 					<button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
 					<li class="orbit-slide is-active">
 						<img class="orbit-image" src="/img/index/gallery/slides/1.jpg" alt="">
-						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
 					</li>
 					<li class="orbit-slide">
 						<img class="orbit-image" src="/img/index/gallery/slides/2.jpg" alt="">
-						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
 					</li>
 					<li class="orbit-slide">
 						<img class="orbit-image" src="/img/index/gallery/slides/3.jpg" alt="">
-						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
 					</li>
 					<li class="orbit-slide">
 						<img class="orbit-image" src="/img/index/gallery/slides/4.jpg" alt="">
-						<figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+						<figcaption class="orbit-caption text-center">Examples of Custom Gobo Stencils</figcaption>
+					</li>
+					<li class="orbit-slide">
+						<img class="orbit-image" src="/img/index/gallery/slides/5.jpg" alt="">
+						<figcaption class="orbit-caption">Example of Custom Gobo Stencil with Uplighting on back wall.</figcaption>
+					</li>
+					<li class="orbit-slide">
+						<img class="orbit-image" src="/img/index/gallery/slides/6.jpg" alt="">
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+					</li>
+					<li class="orbit-slide">
+						<img class="orbit-image" src="/img/index/gallery/slides/7.jpg" alt="">
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+					</li>
+					<li class="orbit-slide">
+						<img class="orbit-image" src="/img/index/gallery/slides/8.jpg" alt="">
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+					</li>
+					<!-- <li class="orbit-slide"> -->
+						<!-- <img class="orbit-image" src="/img/index/gallery/slides/9.jpg" alt=""> -->
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+					<!-- </li> -->
+					<li class="orbit-slide">
+						<img class="orbit-image" src="/img/index/gallery/slides/10.jpg" alt="">
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
+					</li>
+					<li class="orbit-slide">
+						<img class="orbit-image" src="/img/index/gallery/slides/11.jpg" alt="">
+						<!-- <figcaption class="orbit-caption">Space, the final frontier.</figcaption> -->
 					</li>
 				</ul>
 				<nav class="orbit-bullets">
-					<button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+					<button class="is-active" data-slide="0"></button>
 					<button data-slide="1"></button>
-					<button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-					<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-					<button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+					<button data-slide="2"></button>
+					<button data-slide="3"></button>
+					<button data-slide="4"></button>
+					<button data-slide="5"></button>
+					<button data-slide="6"></button>
+					<button data-slide="7"></button>
+					<button data-slide="8"></button>
+					<button data-slide="9"></button>
 				</nav>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 <section class="about" id="about-section">
 	<div class="row header">
 		<div class="small-12 columns">
