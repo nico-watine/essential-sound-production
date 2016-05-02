@@ -7,7 +7,7 @@
 function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-	        shrinkOn = 40,
+	        shrinkOn = 10,
             header = document.querySelector("#logo-wrapper");
         if (distanceY > shrinkOn) {
             classie.add(header,"shrunk");

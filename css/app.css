@@ -2112,9 +2112,11 @@ body#index .contact .profile h4 span { display: block; font-size: 1.125rem; lett
 
 body#index .contact .profile p { font-size: 1.125rem; }
 
-body#index section.landing { width: 100%; background: #000 url("/img/index/landing/hero.jpg") no-repeat center center; background-size: cover; min-height: 100%; }
+body#index section.landing { width: 100%; background: #000 url("/img/index/landing/hero.jpg") no-repeat center center; background-size: cover; height: 100%; }
 
-body#index section.landing .absolute-wrapper { position: absolute; top: 30%; width: 100%; z-index: 1000; z-index: 1; padding: 5em 0 0; }
+@media only screen and (max-width: 39.9375em) and (max-height: 540px) { body#index section.landing { min-height: 200px; } }
+
+body#index section.landing .absolute-wrapper { position: absolute; width: 100%; z-index: 1; top: 48%; }
 
 body#index section.landing .absolute-wrapper .prose h1 { color: #fff; text-shadow: 0 0.25rem 0.3125rem #000; }
 
@@ -2126,7 +2128,8 @@ body#index section.landing .absolute-wrapper .prose h2 { color: #fff; text-shado
 @media only screen and (max-width: 700px) { body#index section.landing .absolute-wrapper .prose h1 { font-size: 28px; }
   body#index section.landing .absolute-wrapper .prose h2 { font-size: 22px; } }
 
-body#index section.landing .absolute-wrapper .logo { position: absolute; z-index: 10; width: 100%; text-align: center; }
+@media only screen and (min-width: 40em) and (max-height: 540px) { body#index section.landing { min-height: 600px; }
+  body#index section.landing .absolute-wrapper { position: absolute; top: 280px; } }
 
 body#index section.services { padding: 2.5em 0 0; width: 100%; background: #fff url("/img/index/services/services-bg-detail.jpg") no-repeat left bottom; background-size: auto; }
 
