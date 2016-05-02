@@ -32,6 +32,7 @@
 	padding: 0;
 	width: 100% !important;
 	left: 0 !important;
+	top: 49px;
 	box-shadow: $z-2;
 
 	@include breakpoint(medium) {

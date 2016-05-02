@@ -14,14 +14,14 @@ body#index {
 			position: absolute;
 			top: 30%;
 			width: 100%;
-			// z-index: 200;
+			z-index: 1000;
 			z-index: 1;
 			padding: em(80) 0 0;
 
 			.prose {
-				position: absolute;
-				width: 100%;
-				z-index: 55;
+				// position: absolute;
+				// width: 100%;
+				// z-index: 55;
 
 				h1 {
 					color: #fff;

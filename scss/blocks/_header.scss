@@ -1,9 +1,37 @@
 @import "../_settings.scss";
 
 header {
-	#logo-bar {
-		@include horizontal-center;
+	#logo-wrapper {
+		position: fixed;
+		z-index: 500;
+
+		img {
+			max-width: 70px;
+			padding: 4px 0 0 10px;
+		}
+
+		@include breakpoint(medium) {
+			@include horizontal-center;
+			position: fixed;
+			z-index: 500;
+
+			img {
+				@include transform(translateY(18px));
+				@include transition-property(max-width);
+				@include transition-duration(0.2s);
+				max-width: 200px;
+				padding: 0;
+			}
+		}
+	}
+
+	#logo-wrapper.shrunk {
+		@include breakpoint(medium) {
+			img {
+				@include transform(translateY(0px));
+				max-width: 70px;
+			}
+		}
 	}
 }
-
 
