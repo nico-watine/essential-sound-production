@@ -53,11 +53,6 @@ function pages() {
     .pipe(panini({
       root: 'src/pages/',
       layouts: 'src/layouts/',
-      // For CDN referencing ONLY ::
-      // pageLayouts: {
-      //   '': 'default-cdn'
-      // },
-      // --------------------
       partials: 'src/partials/',
       data: 'src/data/',
       helpers: 'src/helpers/'
@@ -77,15 +72,25 @@ function resetPages(done) {
 // [ REMOVED SOURCE-MAPPING/ERROR-LOGGING FUNCTION]
 function sass() {
   return gulp.src('css/*.css')
+  // return gulp.src('css/app.css')
     .pipe($.autoprefixer({
       browsers: COMPATIBILITY
     }))
     // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+    // .pipe($.if(PRODUCTION, $.uncss({
+    //     ignore: ['!!js/regexp .foundation-mq', '!!js/regexp ^\.is-.*'],
+    //     html: ['dist/*.html', 'dist/*.php'],
+    //     stylesheets: ['css/app.css']
+    // })))
     .pipe($.if(PRODUCTION, $.cssnano()))
     .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));
 }
 
+// function sass_other() {
+//   return gulp.src('css/!(app).css')
+//     .pipe(gulp.dest(PATHS.dist + '/css'));
+// }
 
 // Combine JavaScript into one file
 // In production, the file is minified
@@ -131,7 +136,7 @@ function watch() {
   gulp.watch('src/pages/**/*.php', gulp.series(pages));
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
   // gulp.watch('scss/*.scss', sass);
-  gulp.watch('css/*.css', sass);
+  gulp.watch('css/*.css', gulp.series(sass, sass_other));
   gulp.watch('js/src/*.js', gulp.series(javascript, javascript_other));
   gulp.watch('img/**/*', images);
   gulp.watch('fonts/**/*', fonts);

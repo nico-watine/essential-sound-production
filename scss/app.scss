@@ -3,12 +3,7 @@
 
 @import 'settings';
 @import 'foundation';
-@import 'motion-ui';
-
-// THESE ARE MOTION CSS STYLES... DO NOT IMPORT WITHOUT
-// USING MOTION BC OF LARGE FILE SIZES
-// @include motion-ui-transitions;
-// @include motion-ui-animations;
+// @import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -16,19 +11,26 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
-@include foundation-drilldown-menu;
 @include foundation-dropdown;
-@include foundation-dropdown-menu;
 @include foundation-orbit;
-@include foundation-slider;
-@include foundation-sticky;
-@include foundation-reveal;
-@include foundation-switch;
+// MAYBE::
 @include foundation-title-bar;
+
+// NO::
+// THESE ARE MOTION CSS STYLES... DO NOT IMPORT WITHOUT
+// USING MOTION BC OF LARGE FILE SIZES
+// @include motion-ui-transitions;
+// @include motion-ui-animations;
+// @include foundation-switch;
+// @include foundation-reveal;
+// @include foundation-sticky;
+// @include foundation-slider;
+// @include foundation-dropdown-menu;
+// @include foundation-drilldown-menu;
+// @include foundation-close-button;
+// @include foundation-accordion-menu;
 // @include foundation-button;
 // @include foundation-forms;
 // @include foundation-range-input;
