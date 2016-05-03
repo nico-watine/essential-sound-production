@@ -1,1 +1,1 @@
-$(document).foundation();
+function init(){window.addEventListener("scroll",function(n){var e=window.pageYOffset||document.documentElement.scrollTop,o=10,i=document.querySelector("#logo-wrapper");e>o?classie.add(i,"shrunk"):classie.has(i,"shrunk")&&classie.remove(i,"shrunk")})}$(document).foundation(),window.onload=init();
