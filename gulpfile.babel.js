@@ -80,7 +80,7 @@ function sass() {
     .pipe($.autoprefixer({
       browsers: COMPATIBILITY
     }))
-    .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+    // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
     .pipe($.if(PRODUCTION, $.cssnano()))
     .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));

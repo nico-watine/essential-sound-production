@@ -244,7 +244,7 @@ body-id: index
 		</div>
 	</div>
 </section>
-<section class="contact" id="contact-section">
+<section class="contact shrunk" id="contact-section">
 	<div class="row text-center">
 		<div class="small-12 columns">
 			<h2 class="title">CONTACT INFO</h2>
@@ -268,4 +268,4 @@ body-id: index
 	</div>
 </section>
 
-<div class="dropdown-pane" id="hidden-menu" data-dropdown data-close-on-click="true" ></div>
+<div class="dropdown-pane shrunk" id="hidden-menu" data-dropdown data-close-on-click="true" ></div>
