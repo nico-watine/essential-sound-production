@@ -3,7 +3,7 @@
 
 @import 'settings';
 @import 'foundation';
-@import 'motion-ui';
+// @import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -77,6 +77,9 @@
 
 // PAGES ::
 @import "pages/index/_index.scss";
+
+// IMPORT MOTION UI ANIMATIONS LAST BC OF LOW PRIORITY IN PAGE LOAD ::
+@import 'motion-ui';
 
 
 

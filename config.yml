@@ -13,6 +13,15 @@ UNCSS_OPTIONS:
     - !!js/regexp ^\.is-.*
     - ".dropdown-pane.is-open" # mobile menu
     - "header #logo-wrapper.shrunk img" # shrinking round logo in header
+    # orbit slider animation exclusions
+    - ".slide-in-right.mui-enter"
+    - ".slide-in-right.mui-enter.mui-enter-active"
+    - ".slide-in-left.mui-enter"
+    - ".slide-in-left.mui-enter.mui-enter-active"
+    - ".slide-out-right.mui-leave"
+    - ".slide-out-right.mui-leave.mui-leave-active"
+    - ".slide-out-left.mui-leave"
+    - ".slide-out-left.mui-leave.mui-leave-active"
 
 # Gulp will reference these paths when it copies files
 PATHS:
