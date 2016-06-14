@@ -11,6 +11,8 @@ UNCSS_OPTIONS:
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
+    - ".dropdown-pane.is-open" # mobile menu
+    - "header #logo-wrapper.shrunk img" # shrinking round logo in header
 
 # Gulp will reference these paths when it copies files
 PATHS:
