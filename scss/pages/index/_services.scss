@@ -2,7 +2,7 @@
 
 body#index {
 	section.services {
-		padding: em(40) 0 0;
+		padding: em(40) 0;
 		width: 100%;
 		background: #fff url('/img/index/services/services-bg-detail.jpg') no-repeat left bottom;
 		background-size: auto;
@@ -125,6 +125,15 @@ body#index {
 			h3,
 			p {
 				background: #BA43F0;
+			}
+		}
+
+		a#pdf-link {
+			box-shadow: $z-2;
+			border-radius: rem(1);
+
+			&:hover {
+				box-shadow: $z-1;
 			}
 		}
 	}
