@@ -2898,6 +2898,14 @@ p {
   margin: 0;
 }
 
+.p-x {
+  padding: 0 1rem;
+}
+
+.p-y {
+  padding: 1rem 0;
+}
+
 body#index section.photo-gallery {
   padding: 2.5em 0 3.75em;
   border-bottom: 1.875em solid #000;
