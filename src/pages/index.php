@@ -39,7 +39,7 @@ body-id: index
 		<div class="large-6 columns">
 			<div class="package-plan" id="premium">
 				<h3 class="title">PREMIUM</h3>
-				<ul class="accordion" data-accordion data-allow-all-closed="true">
+				<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
 					<li>6 Hours of Music<div data-tab-content></div></li>
 					<li>Premium QSC Sound Speakers<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
@@ -72,7 +72,7 @@ body-id: index
 		<div class="large-6 columns">
 			<div class="package-plan" id="deluxe">
 				<h3 class="title">DELUXE</h3>
-				<ul class="accordion" data-accordion data-allow-all-closed="true">
+				<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
 					<li>6 Hours of Music<div data-tab-content></div></li>
 					<li>Premium QSC Sound Speakers<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
@@ -114,7 +114,7 @@ body-id: index
 		<div class="small-12 columns">
 			<div class="package-plan" id="ultra">
 				<h3 class="title">ULTRA</h3>
-				<ul class="accordion" data-accordion data-allow-all-closed="true">
+				<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
 					<li>6 Hours of Music<div data-tab-content></div></li>
 					<li>Premium QSC Sound Speakers<div data-tab-content></div></li>
 					<li class="accordion-item" data-accordion-item>
