@@ -156,7 +156,7 @@ body-id: index
 	</div>
 	<div class="row text-center p-x">
 		<h3 class="body-font">We also have professional sound and lighting equipment available for rent.</h3>
-		<a href="/ESP-Equipment-Rental.pdf" class="large button title" id="pdf-link" target="_blank">EQUIPMENT RENTAL PDF</a>
+		<a href="/ESP-Equipment-Rental-2016.pdf" class="large button title" id="pdf-link" target="_blank">EQUIPMENT RENTAL PDF</a>
 	</div>
 </section>
 <section class="photo-gallery" id="gallery-section">
