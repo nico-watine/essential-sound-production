@@ -27,36 +27,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/_ignores\/_notes.txt": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_ignores\/_notes.txt",
-		"oF": 0
-		},
-	"\/_ignores\/autoVer-assets.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/autoVer-assets.php",
-		"oF": 0
-		},
-	"\/_ignores\/browser-upgrade-snippet.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/browser-upgrade-snippet.html",
-		"oF": 0
-		},
-	"\/_ignores\/compiling-procedure-options.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_ignores\/compiling-procedure-options.txt",
-		"oF": 0
-		},
-	"\/_ignores\/css-compilation-notes.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_ignores\/css-compilation-notes.txt",
-		"oF": 0
-		},
 	"\/_ignores\/css-references.css": {
 		"aP": 0,
 		"bl": 0,
@@ -79,43 +49,28 @@
 		"oAP": "\/_ignores\/essential-sound-production.sublime-workspace",
 		"oF": 0
 		},
-	"\/_ignores\/favicon-head.html": {
+	"\/_ignores\/head\/favicon-head.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_ignores\/favicon-head.html",
+		"oAP": "\/_ignores\/head\/favicon-head.html",
 		"oF": 0
 		},
-	"\/_ignores\/favicon-linking.html": {
+	"\/_ignores\/head\/favicon-linking.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_ignores\/favicon-linking.html",
+		"oAP": "\/_ignores\/head\/favicon-linking.html",
 		"oF": 0
 		},
-	"\/_ignores\/google-tracking-id.html": {
+	"\/_ignores\/head\/head-references.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_ignores\/google-tracking-id.html",
+		"oAP": "\/_ignores\/head\/head-references.html",
 		"oF": 0
 		},
-	"\/_ignores\/head-references.html": {
+	"\/_ignores\/misc\/browser-upgrade-snippet.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_ignores\/head-references.html",
-		"oF": 0
-		},
-	"\/_ignores\/stock-files\/gulpfile.babel.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/_ignores\/gulpfile.babel-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/_ignores\/type-scales.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_ignores\/type-scales.txt",
+		"oAP": "\/_ignores\/misc\/browser-upgrade-snippet.html",
 		"oF": 0
 		},
 	"\/assets\/.htaccess": {
