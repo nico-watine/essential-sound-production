@@ -2,7 +2,7 @@
 
 @import 'settings';
 @import 'foundation';
-@import 'motion-ui';
+// @import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -23,8 +23,8 @@
 // NO::
 // THESE ARE MOTION CSS STYLES... DO NOT IMPORT WITHOUT
 // USING MOTION BC OF LARGE FILE SIZES
-@include motion-ui-transitions;
-@include motion-ui-animations;
+// @include motion-ui-transitions;
+// @include motion-ui-animations;
 @include foundation-switch;
 @include foundation-reveal;
 @include foundation-sticky;
