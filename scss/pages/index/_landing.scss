@@ -26,12 +26,12 @@ body#index {
 			.prose {
 				h1 {
 					color: #fff;
-					text-shadow: 0 rem(4) rem(5) #000;
+					text-shadow: 0 rem-calc(4) rem-calc(5) #000;
 				}
-				
+
 				h2 {
 					color: #fff;
-					text-shadow: 0 rem(4) rem(5) #000;
+					text-shadow: 0 rem-calc(4) rem-calc(5) #000;
 				}
 
 				@media #{$max-width-900} {
