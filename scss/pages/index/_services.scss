@@ -2,49 +2,49 @@
 
 body#index {
 	section.services {
-		padding: em(40) 0;
+		padding: rem-calc(40) 0;
 		width: 100%;
 		background: #fff url('/img/index/services/services-bg-detail.jpg') no-repeat left bottom;
 		background-size: auto;
 
 		.row#row-title {
-			margin-bottom: em(50);
+			margin-bottom: rem-calc(50);
 		}
 
 		.package-plan {
 			background: #fff;
-			border: em(15) solid #000;
+			border: rem-calc(15) solid #000;
 			box-shadow: $z-3;
 			position: relative;
-			margin-bottom: em(45);
+			margin-bottom: rem-calc(45);
 
 			h3 {
-				padding: rem(12) 0;
+				padding: rem-calc(12) 0;
 				color: #fff;
 				margin: 0;
 			}
 
 			p {
-				padding: rem(8) 0;
+				padding: rem-calc(8) 0;
 				width: 100%;
 				color: #fff;
-				margin: rem(12) 0 0;
+				margin: rem-calc(12) 0 0;
 
 				@include breakpoint(medium) {
-					font-size: rem(25);
+					font-size: rem-calc(25);
 				}
 			}
 
 			ul.accordion {
 				list-style-type: none;
 				margin: 0;
-				padding: rem(16) rem(8);
+				padding: rem-calc(16) rem-calc(8);
 
 				li {
-					letter-spacing: rem(1.5);
+					letter-spacing: rem-calc(1.5);
 
 					@include breakpoint(medium) {
-						font-size: rem(25);
+						font-size: rem-calc(25);
 					}
 				}
 
@@ -52,12 +52,12 @@ body#index {
 					font-size: inherit;
 
 					.accordion-content {
-						padding: rem(12);
-						margin-bottom: rem(12);
+						padding: rem-calc(12);
+						margin-bottom: rem-calc(12);
 						border-top: 1px solid #e6e6e6;
 
 						@include breakpoint(medium) {
-							font-size: rem(20);
+							font-size: rem-calc(20);
 						}
 
 						.widget {
@@ -78,11 +78,11 @@ body#index {
 					a {
 						border: 0;
 						background: none;
-						font-size: rem(16);
+						font-size: rem-calc(16);
 						text-decoration: underline;
 						letter-spacing: 0;
-						padding: 0 rem(16); 
-						margin-bottom: rem(8);
+						padding: 0 rem-calc(16);
+						margin-bottom: rem-calc(8);
 
 						display: initial;
 						line-height: 1;
@@ -130,7 +130,7 @@ body#index {
 
 		a#pdf-link {
 			box-shadow: $z-2;
-			border-radius: rem(1);
+			border-radius: rem-calc(1);
 
 			&:hover {
 				box-shadow: $z-1;

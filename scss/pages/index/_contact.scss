@@ -2,28 +2,28 @@
 
 body#index {
 	.contact {
-		border-top: em(30) solid #000;
-		padding: em(36) 0;
+		border-top: rem-calc(30) solid #000;
+		padding: rem-calc(36) 0;
 		background: #fff url('/img/index/contact/phone-bg.png') no-repeat left bottom;
 		background-size: contain;
 
 		p#inform-about-website {
-			font-size: rem(25);
-			margin-bottom: rem(55);
+			font-size: rem-calc(25);
+			margin-bottom: rem-calc(55);
 		}
 
 		.profile {
 			h4 {
 				span {
 					display: block;
-					font-size: rem(18);
-					letter-spacing: rem(1.5);
+					font-size: rem-calc(18);
+					letter-spacing: rem-calc(1.5);
 					color: #343434;
 				}
 			}
 
 			p {
-				font-size: rem(18);
+				font-size: rem-calc(18);
 			}
 		}
 	}

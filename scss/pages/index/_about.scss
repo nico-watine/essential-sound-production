@@ -2,8 +2,8 @@
 
 body#index {
 	section.about {
-		padding: em(100) 0 em(40);
-		height: em(750);
+		padding: rem-calc(100) 0 rem-calc(40);
+		height: rem-calc(750);
 		width: 100%;
 		background: #000 url('/img/index/about/about-bg.jpg') no-repeat center center;
 		background-size: cover;
@@ -11,34 +11,34 @@ body#index {
 
 		@include breakpoint(small only) {
 			height: auto;
-			padding: em(40) 0;
+			padding: rem-calc(40) 0;
 			background: #000 url('/img/index/about/about-bg@small.jpg') no-repeat center center;
 			background-size: cover;
 		}
 
 		h2 {
 			color: #fff;
-			text-shadow: 0 rem(4) rem(5) #000;
+			text-shadow: 0 rem-calc(4) rem-calc(5) #000;
 
 			span {
 				background: rgba(0,0,0,0.30);
-				padding: rem(16) rem(20) rem(12);
+				padding: rem-calc(16) rem-calc(20) rem-calc(12);
 			}
 		}
 
 		.prose-wrapper {
 			background: rgba(0,0,0,0.30);
-			max-width: em(800);
+			max-width: rem-calc(800);
 			width: 100%;
-			padding: rem(18);
+			padding: rem-calc(18);
 
 			p {
 				color: #fff;
-				text-shadow: 0 rem(2) rem(6) #000;
+				text-shadow: 0 rem-calc(2) rem-calc(6) #000;
 				line-height: 1.3;
 
 				@include breakpoint(medium) {
-					font-size: rem(24);
+					font-size: rem-calc(24);
 				}
 			}
 		}
