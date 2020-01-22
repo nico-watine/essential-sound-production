@@ -1,4 +1,4 @@
-@import "../../_settings.scss";
+@import '../../_settings.scss';
 
 body#index {
 	section.services {
@@ -83,7 +83,6 @@ body#index {
 						letter-spacing: 0;
 						padding: 0 rem-calc(16);
 						margin-bottom: rem-calc(8);
-
 						display: initial;
 						line-height: 1;
 
@@ -100,31 +99,31 @@ body#index {
 		}
 
 		.package-plan#premium {
-			border-color: #0EA6D7;
+			border-color: #0ea6d7;
 
 
 			h3,
 			p {
-				background-color: #0EA6D7;
+				background-color: #0ea6d7;
 			}
 		}
 
 		.package-plan#deluxe {
-			border-color: #99CE57;
+			border-color: #99ce57;
 
 
 			h3,
 			p {
-				background: #99CE57;
+				background: #99ce57;
 			}
 		}
 
 		.package-plan#ultra {
-			border-color: #BA43F0;
+			border-color: #ba43f0;
 
 			h3,
 			p {
-				background: #BA43F0;
+				background: #ba43f0;
 			}
 		}
 
@@ -138,5 +137,3 @@ body#index {
 		}
 	}
 }
-
-

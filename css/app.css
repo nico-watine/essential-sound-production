@@ -3126,30 +3126,30 @@ body#index section.services .package-plan ul.accordion li.accordion-item a::befo
 }
 
 body#index section.services .package-plan#premium {
-  border-color: #0EA6D7;
+  border-color: #0ea6d7;
 }
 
 body#index section.services .package-plan#premium h3,
 body#index section.services .package-plan#premium p {
-  background-color: #0EA6D7;
+  background-color: #0ea6d7;
 }
 
 body#index section.services .package-plan#deluxe {
-  border-color: #99CE57;
+  border-color: #99ce57;
 }
 
 body#index section.services .package-plan#deluxe h3,
 body#index section.services .package-plan#deluxe p {
-  background: #99CE57;
+  background: #99ce57;
 }
 
 body#index section.services .package-plan#ultra {
-  border-color: #BA43F0;
+  border-color: #ba43f0;
 }
 
 body#index section.services .package-plan#ultra h3,
 body#index section.services .package-plan#ultra p {
-  background: #BA43F0;
+  background: #ba43f0;
 }
 
 body#index section.services a#pdf-link {

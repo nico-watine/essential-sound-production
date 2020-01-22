@@ -1,4 +1,4 @@
-@import "../../_settings.scss";
+@import '../../_settings.scss';
 
 .title-bar,
 #top-bar-nav {
@@ -50,7 +50,6 @@
 
 
 nav#top-bar-nav {
-
 	@include breakpoint(medium) {
 		height: 70px;
 		overflow: hidden;

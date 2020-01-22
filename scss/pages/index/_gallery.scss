@@ -1,11 +1,10 @@
-@import "../../_settings.scss";
+@import '../../_settings.scss';
 
 body#index {
 	section.photo-gallery {
 		padding: rem-calc(40) 0 rem-calc(60);
 		border-bottom: rem-calc(30) solid #000;
 		width: 100%;
-
 		background: #000 url('/img/index/gallery/gallery-bg.jpg') no-repeat center center;
 		background-size: cover;
 
@@ -23,7 +22,7 @@ body#index {
 			margin-bottom: rem-calc(30);
 
 			span {
-				background: rgba(0,0,0,0.30);
+				background: rgba(0,0,0,.30);
 				padding: rem-calc(16) rem-calc(20) rem-calc(12);
 			}
 		}
@@ -36,4 +35,3 @@ body#index {
 		}
 	}
 }
-

@@ -1,4 +1,4 @@
-@import "../../_settings.scss";
+@import '../../_settings.scss';
 
 header {
 	#logo-wrapper {
@@ -18,7 +18,7 @@ header {
 			img {
 				@include transform(translateY(18px));
 				@include transition-property(max-width);
-				@include transition-duration(0.2s);
+				@include transition-duration(.2s);
 				max-width: 200px;
 				padding: 0;
 			}
@@ -44,9 +44,3 @@ header {
 		}
 	}
 }
-
-
-
-
-
-
