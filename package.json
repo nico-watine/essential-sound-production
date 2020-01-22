@@ -1,13 +1,11 @@
 {
-  "name": "foundation-zurb-template",
-  "version": "1.0.0",
-  "description": "Official ZURB Template for Foundation for Sites.",
-  "main": "gulpfile.js",
+  "name": "essential-sound-production",
+  "description": "Site for Essential Sound Production in Houston, TX. Build on Foundation 6.",
   "scripts": {
     "start": "gulp",
     "build": "gulp build --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.3.17",
@@ -45,11 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-zurb-template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
-  },
-  "private": true
+    "url": "https://github.com/nico-watine/essential-sound-production.git"
+  }
 }
