@@ -2,7 +2,7 @@
 
 @import 'settings';
 @import 'foundation';
-// @import 'motion-ui';
+@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -23,36 +23,36 @@
 // NO::
 // THESE ARE MOTION CSS STYLES... DO NOT IMPORT WITHOUT
 // USING MOTION BC OF LARGE FILE SIZES
-// @include motion-ui-transitions;
-// @include motion-ui-animations;
-// @include foundation-switch;
-// @include foundation-reveal;
-// @include foundation-sticky;
-// @include foundation-slider;
-// @include foundation-dropdown-menu;
-// @include foundation-drilldown-menu;
-// @include foundation-close-button;
-// @include foundation-accordion-menu;
-// @include foundation-forms;
-// @include foundation-range-input;
-// @include foundation-badge;
-// @include foundation-breadcrumbs;
-// @include foundation-button-group;
-// @include foundation-callout;
-// @include foundation-flex-video;
-// @include foundation-label;
-// @include foundation-media-object;
-// @include foundation-off-canvas;
-// @include foundation-pagination;
-// @include foundation-progress-bar;
-// @include foundation-progress-element;
-// @include foundation-meter-element;
-// @include foundation-table;
-// @include foundation-tabs;
-// @include foundation-thumbnail;
-// @include foundation-tooltip;
-// @include foundation-float-classes;
-// @include foundation-flex-classes;
+@include motion-ui-transitions;
+@include motion-ui-animations;
+@include foundation-switch;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-slider;
+@include foundation-dropdown-menu;
+@include foundation-drilldown-menu;
+@include foundation-close-button;
+@include foundation-accordion-menu;
+@include foundation-forms;
+@include foundation-range-input;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-progress-element;
+@include foundation-meter-element;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-tooltip;
+@include foundation-float-classes;
+@include foundation-flex-classes;
 
 
 // TYPICALLY NEVER IMPORTED::
