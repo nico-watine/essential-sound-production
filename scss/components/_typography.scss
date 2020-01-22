@@ -1,10 +1,10 @@
-@import "../_settings.scss";
-@import "typography/_fonts.scss";
+@import '../_settings.scss';
+@import 'typography/_fonts.scss';
 
 .title {
 	font-family: $heavy-title;
 	font-weight: $heavy-title-font-weight;
-	letter-spacing: rem(3);
+	letter-spacing: rem-calc(3);
 }
 
 .body-font {
@@ -13,16 +13,16 @@
 }
 
 .body-font.spaced-out {
-	letter-spacing: rem(1.5);
+	letter-spacing: rem-calc(1.5);
 }
 
 p.large {
-	letter-spacing: rem(1.5);
-	font-size: rem(22);
+	letter-spacing: rem-calc(1.5);
+	font-size: rem-calc(22);
 }
 
 p {
-	letter-spacing: rem(1.5);
+	letter-spacing: rem-calc(1.5);
 }
 
 // OPTIONAL CUSTOM STYLING OF H5 & H6 FOR UPPERCASE W/ LETTER SPACING
@@ -32,4 +32,3 @@ p {
 // 	letter-spacing: $h5-h6-letter-spacing;
 // 	text-transform: uppercase;
 // }
-

@@ -1,4 +1,4 @@
-@import "../_settings.scss";
+@import '../_settings.scss';
 
 /* uncss:ignore */
 header {
@@ -17,9 +17,9 @@ header {
 			z-index: 500;
 
 			img {
-				@include transform(translateY(18px));
-				@include transition-property(max-width);
-				@include transition-duration(0.2s);
+				transform: translateY(18px);
+				transition-property: max-width;
+				transition-duration: .2s;
 				max-width: 200px;
 				padding: 0;
 			}
@@ -29,10 +29,9 @@ header {
 	#logo-wrapper.shrunk {
 		@include breakpoint(medium) {
 			img {
-				@include transform(translateY(0px));
+				transform: translateY(0px);
 				max-width: 70px;
 			}
 		}
 	}
 }
-

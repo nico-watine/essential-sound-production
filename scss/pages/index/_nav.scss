@@ -1,4 +1,4 @@
-@import "../../_settings.scss";
+@import '../../_settings.scss';
 
 .title-bar,
 #top-bar-nav {
@@ -12,12 +12,12 @@
 .title-bar {
 	z-index: 200;
 	text-align: right;
-	padding: rem(12);
+	padding: rem-calc(12);
 	box-shadow: $z-2;
 
 	.title-bar-title {
-		letter-spacing: rem(1.5);
-		font-size: rem(18);
+		letter-spacing: rem-calc(1.5);
+		font-size: rem-calc(18);
 		font-weight: inherit;
 	}
 }
@@ -50,7 +50,6 @@
 
 
 nav#top-bar-nav {
-
 	@include breakpoint(medium) {
 		height: 70px;
 		overflow: hidden;
@@ -60,12 +59,12 @@ nav#top-bar-nav {
 	ul.menu {
 		// background: #000;
 
-		// box-shadow: 0 em(1) em(4) 0 rgba(0,0,0,0.37);
-		// height: em(80);
+		// box-shadow: 0 rem-calc(1) rem-calc(4) 0 rgba(0,0,0,0.37);
+		// height: rem-calc(80);
 
 		li {
 			vertical-align: top;
-			// padding-top: rem(28);
+			// padding-top: rem-calc(28);
 
 			// @include breakpoint(medium) {
 			// 	height: 70px;
@@ -73,14 +72,14 @@ nav#top-bar-nav {
 			// }
 
 			a {
-				padding: rem(24) 0;
-				font-size: rem(22);
+				padding: rem-calc(24) 0;
+				font-size: rem-calc(22);
 				color: #fff;
-				letter-spacing: rem(1.5);
+				letter-spacing: rem-calc(1.5);
 
 				@include breakpoint(small only) {
-					font-size: rem(18);
-					padding: rem(18);
+					font-size: rem-calc(18);
+					padding: rem-calc(18);
 				}
 			}
 
@@ -98,8 +97,8 @@ nav#top-bar-nav {
 		}
 
 		li.logo {
-			padding-top: rem(16);
-			
+			padding-top: rem-calc(16);
+
 			img {
 				max-width: 250px;
 				width: 100%;

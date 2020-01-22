@@ -1,39 +1,37 @@
-@import "../../_settings.scss";
+@import '../../_settings.scss';
 
 body#index {
 	section.photo-gallery {
-		padding: em(40) 0 em(60);
-		border-bottom: em(30) solid #000;
+		padding: rem-calc(40) 0 rem-calc(60);
+		border-bottom: rem-calc(30) solid #000;
 		width: 100%;
-
 		background: #000 url('/img/index/gallery/gallery-bg.jpg') no-repeat center center;
 		background-size: cover;
 
 
 		@include breakpoint(small only) {
 			height: auto;
-			padding: em(40) 0;
+			padding: rem-calc(40) 0;
 			background: #000 url('/img/index/gallery/gallery-bg@small.jpg') no-repeat center center;
 			background-size: cover;
 		}
 
 		h2 {
 			color: #fff;
-			text-shadow: 0 rem(4) rem(5) #000;
-			margin-bottom: rem(30);
+			text-shadow: 0 rem-calc(4) rem-calc(5) #000;
+			margin-bottom: rem-calc(30);
 
 			span {
-				background: rgba(0,0,0,0.30);
-				padding: rem(16) rem(20) rem(12);
+				background: rgba(0,0,0,.30);
+				padding: rem-calc(16) rem-calc(20) rem-calc(12);
 			}
 		}
 
 		.orbit {
 			.orbit-container {
-				border: em(4) solid #fff;
+				border: rem-calc(4) solid #fff;
 				box-shadow: $z-5;
 			}
 		}
 	}
 }
-
