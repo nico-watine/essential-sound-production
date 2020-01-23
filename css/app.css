@@ -4983,7 +4983,6 @@ table.hover tr:nth-of-type(even):hover {
   }
 }
 
-/* uncss:ignore */
 header #logo-wrapper {
   position: fixed;
   z-index: 500;
@@ -4995,6 +4994,14 @@ header #logo-wrapper img {
 }
 
 @media screen and (min-width: 40em) {
+  header #logo-wrapper.shrunk img {
+    transform: translateY(0px);
+    max-width: 70px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  /* uncss:ignore start */
   header #logo-wrapper {
     position: absolute;
     left: 50%;
@@ -5009,13 +5016,7 @@ header #logo-wrapper img {
     max-width: 200px;
     padding: 0;
   }
-}
-
-@media screen and (min-width: 40em) {
-  header #logo-wrapper.shrunk img {
-    transform: translateY(0px);
-    max-width: 70px;
-  }
+  /* uncss:ignore end */
 }
 
 .title-bar,

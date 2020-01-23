@@ -1,6 +1,5 @@
 @import '../_settings.scss';
 
-/* uncss:ignore */
 header {
 	#logo-wrapper {
 		position: fixed;
@@ -10,8 +9,24 @@ header {
 			max-width: 70px;
 			padding: 4px 0 0 10px;
 		}
+	}
+}
 
-		@include breakpoint(medium) {
+@include breakpoint(medium) {
+	header {
+		#logo-wrapper.shrunk {
+			img {
+				transform: translateY(0px);
+				max-width: 70px;
+			}
+		}
+	}
+}
+
+@include breakpoint(medium) {
+	/* uncss:ignore start */
+	header {
+		#logo-wrapper {
 			@include horizontal-center;
 			position: fixed;
 			z-index: 500;
@@ -25,13 +40,5 @@ header {
 			}
 		}
 	}
-
-	#logo-wrapper.shrunk {
-		@include breakpoint(medium) {
-			img {
-				transform: translateY(0px);
-				max-width: 70px;
-			}
-		}
-	}
+	/* uncss:ignore end */
 }
