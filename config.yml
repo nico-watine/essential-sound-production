@@ -12,7 +12,6 @@ UNCSS_OPTIONS:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
     - ".dropdown-pane.is-open" # mobile menu
-    - "header #logo-wrapper.shrunk img" # shrinking round logo in header
     # orbit slider animation exclusions
     - ".slide-in-right.mui-enter"
     - ".slide-in-right.mui-enter.mui-enter-active"
@@ -26,7 +25,7 @@ UNCSS_OPTIONS:
 # Gulp will reference these paths when it copies files
 PATHS:
   # Path to dist folder
-  dist: "dist"  
+  dist: "dist"
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
     - "assets/.htaccess" # <- specify import invisible file .htaccess
