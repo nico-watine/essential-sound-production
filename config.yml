@@ -12,7 +12,6 @@ UNCSS_OPTIONS:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
     - ".dropdown-pane.is-open" # mobile menu
-    # - "header #logo-wrapper.shrunk img" # shrinking round logo in header
     # orbit slider animation exclusions
     - ".slide-in-right.mui-enter"
     - ".slide-in-right.mui-enter.mui-enter-active"
