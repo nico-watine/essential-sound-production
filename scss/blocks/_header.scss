@@ -13,17 +13,6 @@ header {
 }
 
 @include breakpoint(medium) {
-	header {
-		#logo-wrapper.shrunk {
-			img {
-				transform: translateY(0px);
-				max-width: 70px;
-			}
-		}
-	}
-}
-
-@include breakpoint(medium) {
 	/* uncss:ignore start */
 	header {
 		#logo-wrapper {
@@ -37,6 +26,13 @@ header {
 				transition-duration: .2s;
 				max-width: 200px;
 				padding: 0;
+			}
+		}
+
+		#logo-wrapper.shrunk {
+			img {
+				transform: translateY(0px);
+				max-width: 70px;
 			}
 		}
 	}
