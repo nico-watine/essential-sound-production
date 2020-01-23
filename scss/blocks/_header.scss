@@ -11,12 +11,13 @@ header #logo-wrapper img {
 }
 
 @include breakpoint(medium) {
+	/* uncss:ignore */
 	header #logo-wrapper {
 		@include horizontal-center;
 		position: fixed;
 		z-index: 500;
 	}
-
+	/* uncss:ignore */
 	header #logo-wrapper img {
 		transform: translateY(18px);
 		transition-property: max-width;
@@ -24,7 +25,7 @@ header #logo-wrapper img {
 		max-width: 200px;
 		padding: 0;
 	}
-
+	/* uncss:ignore */
 	header #logo-wrapper.shrunk img {
 		transform: translateY(0px);
 		max-width: 70px;

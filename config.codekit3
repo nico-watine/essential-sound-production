@@ -4464,6 +4464,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/dist",
+		"oF": 0
+		},
 	"/fonts/avenir-next/bold/AvenirNext-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
