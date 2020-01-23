@@ -4994,7 +4994,6 @@ header #logo-wrapper img {
 }
 
 @media screen and (min-width: 40em) {
-  /* uncss:ignore start */
   header #logo-wrapper {
     position: absolute;
     left: 50%;
@@ -5013,7 +5012,6 @@ header #logo-wrapper img {
     transform: translateY(0px);
     max-width: 70px;
   }
-  /* uncss:ignore end */
 }
 
 .title-bar,
