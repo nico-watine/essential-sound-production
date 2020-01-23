@@ -734,7 +734,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/dist/foundation-flex.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/foundation-sites/dist/foundation-flex.min.css": {
 		"aP": 0,
@@ -744,7 +744,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/dist/foundation-flex.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/foundation-sites/dist/foundation-rtl.css": {
 		"aP": 0,
@@ -754,7 +754,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/dist/foundation-rtl.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/foundation-sites/dist/foundation-rtl.min.css": {
 		"aP": 0,
@@ -764,7 +764,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/dist/foundation-rtl.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/foundation-sites/dist/foundation.css": {
 		"aP": 0,
@@ -774,7 +774,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/dist/foundation.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/foundation-sites/dist/foundation.js": {
 		"bF": 0,
@@ -795,7 +795,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/dist/foundation.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/foundation-sites/dist/foundation.min.js": {
 		"bF": 0,
@@ -3735,7 +3735,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/motion-ui/dist/motion-ui.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/motion-ui/dist/motion-ui.js": {
 		"bF": 0,
@@ -3756,7 +3756,7 @@
 		"oA": 2,
 		"oAP": "/bower_components/motion-ui/dist/motion-ui.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/bower_components/motion-ui/dist/motion-ui.min.js": {
 		"bF": 0,
@@ -4464,423 +4464,11 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-1.jpg": {
-		"ft": 16384,
-		"iS": 53819,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-2.jpg": {
-		"ft": 16384,
-		"iS": 52329,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-3.jpg": {
-		"ft": 16384,
-		"iS": 73072,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-4.jpg": {
-		"ft": 16384,
-		"iS": 77066,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/aluminum-truss/aluminum-truss-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/gobo/gobo-example-1.jpg": {
-		"ft": 16384,
-		"iS": 27503,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/gobo/gobo-example-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/jbl/jbl.jpg": {
-		"ft": 16384,
-		"iS": 10276,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/jbl/jbl.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/jbl/jbl@2x.jpg": {
-		"ft": 16384,
-		"iS": 49716,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/jbl/jbl@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/K10.jpg": {
-		"ft": 16384,
-		"iS": 15006,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/K10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/K10@2x.jpg": {
-		"ft": 16384,
-		"iS": 50702,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/K10@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/K12.jpg": {
-		"ft": 16384,
-		"iS": 17135,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/K12.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/K12@2x.jpg": {
-		"ft": 16384,
-		"iS": 56863,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/K12@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/k153.jpg": {
-		"ft": 16384,
-		"iS": 14849,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/k153.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/k153@2x.jpg": {
-		"ft": 16384,
-		"iS": 34032,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/k153@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/K8.jpg": {
-		"ft": 16384,
-		"iS": 14599,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/K8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/K8@2x.jpg": {
-		"ft": 16384,
-		"iS": 46415,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/K8@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/KSub.jpg": {
-		"ft": 16384,
-		"iS": 8589,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/KSub.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/qsc/KSub@2x.jpg": {
-		"ft": 16384,
-		"iS": 25835,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/qsc/KSub@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/uplighting/uplighting-example-2.jpg": {
-		"ft": 16384,
-		"iS": 63524,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/uplighting/uplighting-example-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/equipment-rental/uplighting/uplighting-example.jpg": {
-		"ft": 16384,
-		"iS": 76763,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/equipment-rental/uplighting/uplighting-example.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/logo/200x/esp-logo.png": {
-		"ft": 32768,
-		"iS": 56385,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/200x/esp-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/200x/esp-logo@2x.png": {
-		"ft": 32768,
-		"iS": 185012,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/200x/esp-logo@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/300x/esp-logo.png": {
-		"ft": 32768,
-		"iS": 111495,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/300x/esp-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/300x/esp-logo@2x.png": {
-		"ft": 32768,
-		"iS": 399386,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/300x/esp-logo@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/shadow/logo-shadow.png": {
-		"ft": 32768,
-		"iS": 77525,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/shadow/logo-shadow.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/shadow/logo-shadow@2x.png": {
-		"ft": 32768,
-		"iS": 244062,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/shadow/logo-shadow@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/top-bar/logo@2x.png": {
-		"ft": 32768,
-		"iS": 9008,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/top-bar/logo@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/1.jpg": {
-		"ft": 16384,
-		"iS": 95489,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/10.jpg": {
-		"ft": 16384,
-		"iS": 62243,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/11.jpg": {
-		"ft": 16384,
-		"iS": 82178,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/2.jpg": {
-		"ft": 16384,
-		"iS": 75300,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/3.jpg": {
-		"ft": 16384,
-		"iS": 58140,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/4.jpg": {
-		"ft": 16384,
-		"iS": 70469,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/5.jpg": {
-		"ft": 16384,
-		"iS": 61419,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/6.jpg": {
-		"ft": 16384,
-		"iS": 75907,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/7.jpg": {
-		"ft": 16384,
-		"iS": 68879,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/8.jpg": {
-		"ft": 16384,
-		"iS": 65880,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/index/gallery/slides/9.jpg": {
-		"ft": 16384,
-		"iS": 85195,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/index/gallery/slides/9.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/js/vendor/jquery/2-2-2/jquery.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
+	"/dist": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "/dist/js/vendor/jquery/jquery.min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
+		"oAP": "/build/dist",
+		"oF": 0
 		},
 	"/fonts/avenir-next/bold/AvenirNext-Bold.eot": {
 		"cB": 0,
@@ -8028,7 +7616,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "/storage/framework/sessions, node_modules, _logs, logs, log, _cache, cache, /dist",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
