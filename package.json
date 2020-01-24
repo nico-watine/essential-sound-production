@@ -29,5 +29,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nico-watine/essential-sound-production.git"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
