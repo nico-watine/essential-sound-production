@@ -20,5 +20,8 @@
     "motion-ui": "latest",
     "classie": "^1.0.1"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "jquery": "^3.6.0"
+  }
 }
